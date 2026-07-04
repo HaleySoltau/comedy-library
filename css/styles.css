@@ -1,0 +1,382 @@
+/* ============================================
+   Comedy Library — "Marquee & Ticket Stub" theme
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
+
+:root {
+  --bg: #1b0f14;
+  --surface: #2a1620;
+  --surface-raised: #341c28;
+  --gold: #e7b24e;
+  --gold-dim: #a67f36;
+  --cream: #f4e9dc;
+  --rose: #c1495b;
+  --muted: #9c8079;
+  --stub-edge: #17090d;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(231, 178, 78, 0.06), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(193, 73, 91, 0.07), transparent 45%);
+  color: var(--cream);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a { color: inherit; }
+
+/* ---------- Marquee header ---------- */
+
+.marquee {
+  padding: 3.5rem 1.5rem 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(231, 178, 78, 0.18);
+}
+
+.marquee__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 8vw, 5rem);
+  letter-spacing: 0.06em;
+  margin: 0;
+  color: var(--gold);
+  text-shadow:
+    0 0 8px rgba(231, 178, 78, 0.55),
+    0 0 22px rgba(231, 178, 78, 0.25);
+}
+
+.marquee__title a { text-decoration: none; color: inherit; }
+
+.marquee__subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+/* ---------- Layout ---------- */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+.section {
+  margin-top: 3rem;
+}
+
+.section__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px dashed rgba(244, 233, 220, 0.15);
+  padding-bottom: 0.5rem;
+}
+
+.section__heading h2 {
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  font-size: 1.6rem;
+  margin: 0;
+  color: var(--cream);
+}
+
+.section__note {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* ---------- Empty state ---------- */
+
+.empty-state {
+  border: 1px dashed rgba(244, 233, 220, 0.2);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.empty-state code {
+  font-family: var(--font-mono);
+  color: var(--gold);
+  background: rgba(231, 178, 78, 0.08);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* ---------- Tag filter chips ---------- */
+
+.tag-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag-chip {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--surface);
+  border: 1px solid rgba(231, 178, 78, 0.3);
+  color: var(--cream);
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.tag-chip:hover {
+  border-color: var(--gold);
+}
+
+.tag-chip.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--stub-edge);
+}
+
+/* ---------- Featured shorts strip ---------- */
+
+.shorts-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.1rem;
+}
+
+.short-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(244, 233, 220, 0.08);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.short-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-dim);
+}
+
+.short-card__embed {
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.short-card__embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.short-card__body {
+  padding: 0.85rem 1rem 1rem;
+}
+
+.short-card__title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0 0 0.2rem;
+}
+
+.short-card__artist {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--gold);
+}
+
+/* ---------- Ticket-stub artist cards ---------- */
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.4rem;
+}
+
+.stub {
+  position: relative;
+  background: var(--surface);
+  border-radius: var(--radius);
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  border: 1px solid rgba(244, 233, 220, 0.08);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.stub:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-dim);
+}
+
+.stub__photo {
+  width: 84px;
+  min-width: 84px;
+  background: var(--surface-raised);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--gold-dim);
+}
+
+.stub__divider {
+  width: 0;
+  border-left: 2px dashed rgba(244, 233, 220, 0.2);
+  position: relative;
+}
+
+.stub__divider::before,
+.stub__divider::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: var(--bg);
+  border-radius: 50%;
+  left: -8px;
+}
+.stub__divider::before { top: -7px; }
+.stub__divider::after { bottom: -7px; }
+
+.stub__body {
+  padding: 0.9rem 1rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.stub__name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 0.35rem;
+}
+
+.stub__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.stub__tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  background: rgba(244, 233, 220, 0.06);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
+/* ---------- Artist detail page ---------- */
+
+.back-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+.back-link:hover { text-decoration: underline; }
+
+.artist-header {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.artist-header__photo {
+  width: 140px;
+  height: 140px;
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.artist-header__name {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.4rem;
+  color: var(--gold);
+}
+
+.artist-header__website {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--rose);
+  text-decoration: none;
+}
+.artist-header__website:hover { text-decoration: underline; }
+
+.artist-bio {
+  margin-top: 1.5rem;
+  max-width: 65ch;
+  color: var(--cream);
+  opacity: 0.9;
+}
+
+.rating-stamp {
+  display: inline-flex;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  margin-top: 0.4rem;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  padding: 2rem 1rem;
+  opacity: 0.7;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+  .stub { flex-direction: column; }
+  .stub__photo { width: 100%; height: 100px; }
+  .stub__divider { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}
