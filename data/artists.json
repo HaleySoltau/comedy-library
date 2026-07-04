@@ -574,13 +574,6 @@
     "WebsiteURL": ""
   },
   {
-    "ArtistID": 83,
-    "Name": "John Branyan",
-    "Bio": "",
-    "PhotoURL": "",
-    "WebsiteURL": ""
-  },
-  {
     "ArtistID": 84,
     "Name": "Aaron Woodall",
     "Bio": "",
@@ -597,13 +590,6 @@
   {
     "ArtistID": 86,
     "Name": "Brad Upton",
-    "Bio": "",
-    "PhotoURL": "",
-    "WebsiteURL": ""
-  },
-  {
-    "ArtistID": 87,
-    "Name": "Jose Sarduy",
     "Bio": "",
     "PhotoURL": "",
     "WebsiteURL": ""
