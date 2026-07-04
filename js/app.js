@@ -7,6 +7,9 @@ const DATA_PATHS = {
   artists: 'data/artists.json',
   tags: 'data/tags.json',
   shorts: 'data/shorts.json',
+  specials: 'data/specials.json',
+  specialLookup: 'data/special_lookup.json',
+  specialTags: 'data/special_tags.json',
 };
 
 let state = {
@@ -14,6 +17,10 @@ let state = {
   tags: [],       // [{ArtistID, Tag}]
   shorts: [],     // [{ArtistID, Title, EmbedLink}]
   activeTag: null,
+  specials: [],       // [{SpecialID, Title, AiredYear, YouTubeLink, LanguageLevel, ContentLevel}]
+  specialLookup: [],  // [{ArtistID, SpecialID}]
+  specialTags: [],    // [{SpecialID, Tag}]
+  activeSpecialTag: null,
 };
 
 async function loadJSON(path) {
@@ -101,6 +108,96 @@ function renderArtistGrid() {
   }).join('');
 }
 
+/* ---------- Special tag bar & grid (separate from artist tags) ---------- */
+
+function tagsForSpecial(specialId) {
+  return state.specialTags.filter(t => String(t.SpecialID) === String(specialId)).map(t => t.Tag);
+}
+
+function artistsForSpecial(specialId) {
+  const artistIds = state.specialLookup
+    .filter(l => String(l.SpecialID) === String(specialId))
+    .map(l => l.ArtistID);
+  return artistIds
+    .map(id => state.artists.find(a => String(a.ArtistID) === String(id)))
+    .filter(Boolean);
+}
+
+function renderSpecialTagBar() {
+  const bar = document.getElementById('special-tag-bar');
+  const uniqueTags = [...new Set(state.specialTags.map(t => t.Tag))].sort();
+
+  if (uniqueTags.length === 0) {
+    bar.innerHTML = '';
+    document.getElementById('special-filters').querySelector('.section__heading')
+      .insertAdjacentHTML('afterend',
+        '<div class="empty-state">No special tags yet — add rows to <code>data/special_tags.json</code> (SpecialID + Tag) to enable filtering.</div>');
+    return;
+  }
+
+  bar.innerHTML = uniqueTags.map(tag =>
+    `<button class="tag-chip" data-tag="${tag}">${tag}</button>`
+  ).join('');
+
+  bar.querySelectorAll('.tag-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const tag = chip.dataset.tag;
+      state.activeSpecialTag = state.activeSpecialTag === tag ? null : tag;
+      renderSpecialTagBar();
+      renderSpecialGrid();
+    });
+  });
+
+  if (state.activeSpecialTag) {
+    const activeChip = bar.querySelector(`[data-tag="${state.activeSpecialTag}"]`);
+    if (activeChip) activeChip.classList.add('active');
+  }
+}
+
+function renderSpecialGrid() {
+  const grid = document.getElementById('special-grid');
+  const countLabel = document.getElementById('special-count');
+
+  if (state.specials.length === 0) {
+    grid.innerHTML = '<div class="empty-state">No specials yet — add rows to <code>data/specials.json</code> and link them to comedians via <code>data/special_lookup.json</code>.</div>';
+    countLabel.textContent = '';
+    return;
+  }
+
+  let visible = state.specials;
+  if (state.activeSpecialTag) {
+    visible = visible.filter(s => tagsForSpecial(s.SpecialID).includes(state.activeSpecialTag));
+  }
+
+  countLabel.textContent = `${visible.length} of ${state.specials.length}`;
+
+  if (visible.length === 0) {
+    grid.innerHTML = '<div class="empty-state">No specials match that tag yet.</div>';
+    return;
+  }
+
+  grid.innerHTML = visible.map(s => {
+    const artists = artistsForSpecial(s.SpecialID);
+    const artistNames = artists.length ? artists.map(a => a.Name).join(', ') : 'Unknown artist';
+    const tags = tagsForSpecial(s.SpecialID);
+    const wrapperTag = artists[0] ? 'a' : 'div';
+    const hrefAttr = artists[0] ? `href="artist.html?id=${artists[0].ArtistID}"` : '';
+
+    return `
+      <${wrapperTag} class="stub" ${hrefAttr}>
+        <div class="stub__body" style="width:100%;">
+          <p class="stub__name">${s.Title}${s.AiredYear ? `<span class="section__note"> · ${s.AiredYear}</span>` : ''}</p>
+          <p class="short-card__artist">${artistNames}</p>
+          <span class="rating-stamp">${s.LanguageLevel || '?'} language · ${s.ContentLevel || '?'} content</span>
+          <div class="stub__tags" style="margin-top:0.5rem;">
+            ${tags.map(t => `<span class="stub__tag">${t}</span>`).join('')}
+          </div>
+        </div>
+      </${wrapperTag}>
+    `;
+  }).join('');
+}
+
 /* ---------- Featured shorts (deterministic daily rotation) ---------- */
 
 function dayOfYear(date) {
@@ -160,21 +257,31 @@ function renderFeaturedShorts() {
 
 async function init() {
   try {
-    const [artists, tags, shorts] = await Promise.all([
+    const [artists, tags, shorts, specials, specialLookup, specialTags] = await Promise.all([
       loadJSON(DATA_PATHS.artists),
       loadJSON(DATA_PATHS.tags),
       loadJSON(DATA_PATHS.shorts),
+      loadJSON(DATA_PATHS.specials),
+      loadJSON(DATA_PATHS.specialLookup),
+      loadJSON(DATA_PATHS.specialTags),
     ]);
     state.artists = artists.sort((a, b) => a.Name.localeCompare(b.Name));
     state.tags = tags;
     state.shorts = shorts;
+    state.specials = specials;
+    state.specialLookup = specialLookup;
+    state.specialTags = specialTags;
 
     renderTagBar();
     renderArtistGrid();
     renderFeaturedShorts();
+    renderSpecialTagBar();
+    renderSpecialGrid();
   } catch (err) {
     console.error(err);
     document.getElementById('artist-grid').innerHTML =
+      '<div class="empty-state">Couldn\'t load data. Check that the /data JSON files exist and are valid.</div>';
+    document.getElementById('special-grid').innerHTML =
       '<div class="empty-state">Couldn\'t load data. Check that the /data JSON files exist and are valid.</div>';
   }
 }

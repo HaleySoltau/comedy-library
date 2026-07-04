@@ -293,6 +293,14 @@ a { color: inherit; }
   border-radius: 4px;
 }
 
+/* ---------- Ticket-stub special cards ---------- */
+
+.special-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.4rem;
+}
+
 /* ---------- Artist detail page ---------- */
 
 .back-link {
