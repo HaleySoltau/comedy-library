@@ -9,58 +9,58 @@
   {
     "ArtistID": 2,
     "Name": "Adam Sandler",
-    "Bio": "",
+    "Bio": "Stand-up comedian, actor, and musician from Brooklyn, New York, raised in Manchester, New Hampshire, who joined Saturday Night Live as a cast member from 1990 to 1995. Known for his everyman comic persona and novelty songs like \"The Chanukah Song,\" he became one of Hollywood's biggest comedy stars with films including Billy Madison, Happy Gilmore, and The Wedding Singer, later earning acclaim for dramatic turns such as Uncut Gems. After decades away from the stage, he returned to stand-up with two Netflix specials, 100% Fresh (2018) and Love You (2024), and received the Kennedy Center's Mark Twain Prize for American Humor in 2023.",
     "PhotoURL": "",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 3,
     "Name": "Akaash Singh",
-    "Bio": "",
+    "Bio": "Stand-up comedian and podcaster based in New York City, originally from Dallas, Texas. He left the pre-med track at Austin College to pursue comedy full-time, later breaking through with appearances on MTV's Wild 'n Out and Guy Code. Known for a brash, culturally pointed, crowd-work-heavy style, he built a large following co-hosting the Flagrant podcast alongside Andrew Schulz and self-releases his specials directly to YouTube, including Bring Back Apu (2022) and Gaslit (2024).",
     "PhotoURL": "",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 4,
     "Name": "Andrew Schulz",
-    "Bio": "",
+    "Bio": "Stand-up comedian, actor, and podcaster who grew up in Manhattan's East Village and is now based in New York City. He graduated from UC Santa Barbara before building an early following through self-released, independently distributed specials on YouTube. Known for sharp, unfiltered observational and political comedy, he's since headlined sold-out arena tours and released the Netflix specials Schulz Saves America (2020) and Life (2025), along with the self-released Infamous (2022) — one of YouTube's most-watched comedy specials. Co-hosts the podcasts Flagrant with Akaash Singh and The Brilliant Idiots with Charlamagne Tha God.",
     "PhotoURL": "",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.theandrewschulz.com/"
   },
   {
     "ArtistID": 5,
     "Name": "Anita Renfroe",
-    "Bio": "",
+    "Bio": "Standup comedian and musical-comedy performer originally from Atlanta, Georgia and now based in the Texas Hill Country. Best known for her viral 2007 video \"The Mom Song,\" a rapid-fire recitation of everyday mom phrases set to the William Tell Overture, she built her career on the Christian and family-friendly comedy circuit, touring for years with the Women of Faith conference. Known for clean, music-driven comedy about marriage and motherhood, she's released numerous comedy DVDs and books, including Total Momsense and Don't Say I Didn't Warn You: Kids, Carbs, and the Coming Hormonal Apocalypse.",
     "PhotoURL": "",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.anitarenfroe.com/"
   },
   {
     "ArtistID": 6,
-    "Name": "Angela Johnson-Reyes",
-    "Bio": "",
+    "Name": "Anjelah Johnson-Reyes",
+    "Bio": "Stand-up comedian and actress born and raised in San Jose, California. Before comedy, she was an NFL cheerleader for the Oakland Raiderettes, earning Rookie of the Year honors and performing at Super Bowl XXXVII, before relocating to Los Angeles in 2005 to pursue comedy full-time. She rose to fame on MADtv, best known for character-based sketches like \"Bon Qui Qui\" and her nail salon bits, and has since released seven stand-up specials, including Say I Won't (2023) and Technically Not Stalking (2024), plus the podcast Funjelah.",
     "PhotoURL": "",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://anjelah.com/"
   },
   {
     "ArtistID": 7,
     "Name": "Bert Kreischer",
-    "Bio": "",
+    "Bio": "Stand-up comedian and podcaster born in St. Petersburg, Florida and raised in Tampa, who spent six years at Florida State University and became the subject of a notorious 1997 Rolling Stone profile chronicling a college trip to Russia — the origin of his signature story and nickname, \"The Machine,\" later adapted into a 2023 action-comedy film of the same name. Known for shirtless, high-energy storytelling built around outrageous personal anecdotes, he's released stand-up specials for Comedy Central and Netflix, including Secret Time (2018), Hey Big Boy (2020), and Razzle Dazzle (2023). Co-hosts the podcast 2 Bears, 1 Cave with Tom Segura and produces his own show, Bertcast.",
     "PhotoURL": "",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://bertbertbert.com/"
   },
   {
     "ArtistID": 8,
     "Name": "Bill Cosby",
-    "Bio": "",
+    "Bio": "Stand-up comedian and storyteller from Philadelphia, PA, who served in the U.S. Navy before earning degrees from Temple University and UMass Amherst. He began performing in Philadelphia and New York clubs in the early 1960s, building his reputation on observational, conversational storytelling about childhood and family life rather than topical material. He holds the record for the most Grammy Awards for Best Comedy Album and is closely associated with the animated series Fat Albert and the Cosby Kids, which he created, and the sitcom The Cosby Show. His concert film Bill Cosby: Himself (1983) is widely regarded as one of the most influential stand-up specials ever made.",
     "PhotoURL": "",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 9,
     "Name": "Bill Engvall",
-    "Bio": "",
+    "Bio": "Stand-up comedian and actor originally from Galveston, Texas, now based in Park City, Utah. Best known for his signature \"Here's Your Sign\" bit, he co-founded the Blue Collar Comedy Tour in 2000 alongside Jeff Foxworthy, Larry the Cable Guy, and Ron White. Created and starred in The Bill Engvall Show (2007–2009) and later joined the cast of Last Man Standing. Built a decades-long stand-up catalog anchored by his platinum-certified debut album Here's Your Sign (1996), and closed out his touring career with the farewell special Here's Your Sign, It's Finally Time — My Last Show (2023).",
     "PhotoURL": "",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://billengvall.com/"
   },
   {
     "ArtistID": 10,

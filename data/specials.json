@@ -1,1 +1,330 @@
-[]
+[
+  {
+    "SpecialID": 1,
+    "Title": "What the Hell Happened to Me?",
+    "AiredYear": 1996,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 2,
+    "Title": "100% Fresh",
+    "AiredYear": 2018,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 3,
+    "Title": "Love You",
+    "AiredYear": 2024,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 4,
+    "Title": "Bring Back Apu",
+    "AiredYear": 2022,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 5,
+    "Title": "Back to Back: The Crowd Work Special",
+    "AiredYear": 2022,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 6,
+    "Title": "Gaslit",
+    "AiredYear": 2024,
+    "YouTubeLink": "https://www.youtube.com/watch?v=p_HqJyq2SYU",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 7,
+    "Title": "4:4:1",
+    "AiredYear": 2017,
+    "YouTubeLink": "https://www.youtube.com/watch?v=hYvObiM09E4",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 8,
+    "Title": "5:5:1",
+    "AiredYear": 2018,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 9,
+    "Title": "The Crowd Work Special",
+    "AiredYear": 2019,
+    "YouTubeLink": "https://www.youtube.com/watch?v=nS_6c4PyJvg",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 10,
+    "Title": "Schulz Saves America",
+    "AiredYear": 2020,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 11,
+    "Title": "Infamous",
+    "AiredYear": 2022,
+    "YouTubeLink": "https://www.youtube.com/watch?v=rCZkp023MdY",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 12,
+    "Title": "Life",
+    "AiredYear": 2025,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 13,
+    "Title": "Thinking Out Loud",
+    "AiredYear": 2004,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 14,
+    "Title": "Purse-onality",
+    "AiredYear": 2005,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 15,
+    "Title": "Keeping It Real",
+    "AiredYear": "",
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 16,
+    "Title": "Total Momsense",
+    "AiredYear": 2007,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 17,
+    "Title": "It's Probably Just My Thyroid",
+    "AiredYear": 2008,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 18,
+    "Title": "Two Thumbs Up: The Best of Anita Renfroe (so far)",
+    "AiredYear": 2009,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 19,
+    "Title": "Big Ol' Sweet Iced Tea",
+    "AiredYear": 2010,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 20,
+    "Title": "I'm Not High Maintenance, Just Low Tolerance",
+    "AiredYear": 2012,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 21,
+    "Title": "And I Mean That in the Best Possible Way",
+    "AiredYear": 2014,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 22,
+    "Title": "That's How We Do It",
+    "AiredYear": 2009,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 23,
+    "Title": "The Homecoming Show",
+    "AiredYear": 2013,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 24,
+    "Title": "Not Fancy",
+    "AiredYear": 2015,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 25,
+    "Title": "Mahalo & Goodnight",
+    "AiredYear": 2017,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 26,
+    "Title": "Say I Won't",
+    "AiredYear": 2023,
+    "YouTubeLink": "https://www.youtube.com/watch?v=78LHf7YP2c0",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 27,
+    "Title": "Technically Not Stalking",
+    "AiredYear": 2024,
+    "YouTubeLink": "https://www.youtube.com/watch?v=oQtFFwfvbMM",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 28,
+    "Title": "Ugly Baby",
+    "AiredYear": 2026,
+    "YouTubeLink": "https://www.youtube.com/watch?v=3bvkoxZ6xcw",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 29,
+    "Title": "Comfortably Dumb",
+    "AiredYear": 2009,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 30,
+    "Title": "The Machine",
+    "AiredYear": 2016,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 31,
+    "Title": "Secret Time",
+    "AiredYear": 2018,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 32,
+    "Title": "Hey Big Boy",
+    "AiredYear": 2020,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 33,
+    "Title": "Razzle Dazzle",
+    "AiredYear": 2023,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 34,
+    "Title": "Lucky",
+    "AiredYear": 2025,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 35,
+    "Title": "Bill Cosby: Himself",
+    "AiredYear": 1983,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 36,
+    "Title": "Far from Finished",
+    "AiredYear": 2013,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 37,
+    "Title": "Here's Your Sign",
+    "AiredYear": 1996,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 38,
+    "Title": "15° Off Cool",
+    "AiredYear": 2007,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 39,
+    "Title": "Aged & Confused",
+    "AiredYear": 2009,
+    "YouTubeLink": "",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 40,
+    "Title": "Just Sell Him for Parts",
+    "AiredYear": 2016,
+    "YouTubeLink": "https://www.youtube.com/watch?v=UhWFwsziLeI",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  },
+  {
+    "SpecialID": 41,
+    "Title": "Here's Your Sign, It's Finally Time — My Last Show",
+    "AiredYear": 2023,
+    "YouTubeLink": "https://www.youtube.com/watch?v=KWCc5Wix5LM",
+    "LanguageLevel": "",
+    "ContentLevel": ""
+  }
+]
