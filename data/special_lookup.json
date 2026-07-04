@@ -144,5 +144,20 @@
   { "ArtistID": 30, "SpecialID": 143 },
   { "ArtistID": 30, "SpecialID": 144 },
   { "ArtistID": 30, "SpecialID": 145 },
-  { "ArtistID": 30, "SpecialID": 146 }
+  { "ArtistID": 30, "SpecialID": 146 },
+  { "ArtistID": 31, "SpecialID": 147 },
+  { "ArtistID": 31, "SpecialID": 148 },
+  { "ArtistID": 31, "SpecialID": 149 },
+  { "ArtistID": 32, "SpecialID": 150 },
+  { "ArtistID": 32, "SpecialID": 151 },
+  { "ArtistID": 32, "SpecialID": 152 },
+  { "ArtistID": 32, "SpecialID": 153 },
+  { "ArtistID": 32, "SpecialID": 154 },
+  { "ArtistID": 32, "SpecialID": 155 },
+  { "ArtistID": 33, "SpecialID": 156 },
+  { "ArtistID": 33, "SpecialID": 157 },
+  { "ArtistID": 33, "SpecialID": 158 },
+  { "ArtistID": 34, "SpecialID": 159 },
+  { "ArtistID": 34, "SpecialID": 160 },
+  { "ArtistID": 34, "SpecialID": 161 }
 ]
