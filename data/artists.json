@@ -3,133 +3,133 @@
     "ArtistID": 1,
     "Name": "Aaron Weber",
     "Bio": "Standup comedian based in Nashville, TN and a regular performer at the Grand Ole Opry \u2014 the youngest comic ever to perform in the Opry circle. Originally from Montgomery, Alabama, he graduated from Notre Dame before pursuing comedy full-time. Co-hosts The Nateland Podcast with Nate Bargatze and Brian Bates, and released his debut special \"Signature Dish\" (executive produced by Bargatze/Nateland Entertainment).",
-    "PhotoURL": "",
-    "WebsiteURL": ""
+    "PhotoURL": "https://comedyworks.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--2c5ac51d2fdf6122734c32e7c5f9138412ca6b71/AaronWeber-comedian-denver-2.jpg",
+    "WebsiteURL": "https://aaronwebercomedy.com/"
   },
   {
     "ArtistID": 2,
     "Name": "Adam Sandler",
     "Bio": "Stand-up comedian, actor, and musician from Brooklyn, New York, raised in Manchester, New Hampshire, who joined Saturday Night Live as a cast member from 1990 to 1995. Known for his everyman comic persona and novelty songs like \"The Chanukah Song,\" he became one of Hollywood's biggest comedy stars with films including Billy Madison, Happy Gilmore, and The Wedding Singer, later earning acclaim for dramatic turns such as Uncut Gems. After decades away from the stage, he returned to stand-up with two Netflix specials, 100% Fresh (2018) and Love You (2024), and received the Kennedy Center's Mark Twain Prize for American Humor in 2023.",
-    "PhotoURL": "",
+    "PhotoURL": "https://hips.hearstapps.com/hmg-prod/images/adam-sandler-gettyimages-481511486.jpg",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 3,
     "Name": "Akaash Singh",
     "Bio": "Stand-up comedian and podcaster based in New York City, originally from Dallas, Texas. He left the pre-med track at Austin College to pursue comedy full-time, later breaking through with appearances on MTV's Wild 'n Out and Guy Code. Known for a brash, culturally pointed, crowd-work-heavy style, he built a large following co-hosting the Flagrant podcast alongside Andrew Schulz and self-releases his specials directly to YouTube, including Bring Back Apu (2022) and Gaslit (2024).",
-    "PhotoURL": "",
+    "PhotoURL": "https://m.media-amazon.com/images/M/MV5BMThmMDJlZWYtMjFiYi00NGE2LWJiNzctNGVlMGY0ZjAwZGU5XkEyXkFqcGc@._V1_.jpg",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 4,
     "Name": "Andrew Schulz",
     "Bio": "Stand-up comedian, actor, and podcaster who grew up in Manhattan's East Village and is now based in New York City. He graduated from UC Santa Barbara before building an early following through self-released, independently distributed specials on YouTube. Known for sharp, unfiltered observational and political comedy, he's since headlined sold-out arena tours and released the Netflix specials Schulz Saves America (2020) and Life (2025), along with the self-released Infamous (2022) — one of YouTube's most-watched comedy specials. Co-hosts the podcasts Flagrant with Akaash Singh and The Brilliant Idiots with Charlamagne Tha God.",
-    "PhotoURL": "https://m.media-amazon.com/images/M/MV5BNzMwNzgxYTItODkyNi00ODQ2LTg0NzEtYjczMzNmYmEzNzQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSE906ZXNbkwOrg2ERF3v01lxj-ZL6U8AZ61clMNGbAw&s=10",
     "WebsiteURL": "https://www.theandrewschulz.com/"
   },
   {
     "ArtistID": 5,
     "Name": "Anita Renfroe",
     "Bio": "Standup comedian and musical-comedy performer originally from Atlanta, Georgia and now based in the Texas Hill Country. Best known for her viral 2007 video \"The Mom Song,\" a rapid-fire recitation of everyday mom phrases set to the William Tell Overture, she built her career on the Christian and family-friendly comedy circuit, touring for years with the Women of Faith conference. Known for clean, music-driven comedy about marriage and motherhood, she's released numerous comedy DVDs and books, including Total Momsense and Don't Say I Didn't Warn You: Kids, Carbs, and the Coming Hormonal Apocalypse.",
-    "PhotoURL": "",
+    "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRci54RG5ZR-fFuBP0GjHBljbEmdHdhqNpele5Fy8nNcQ&s=10",
     "WebsiteURL": "https://www.anitarenfroe.com/"
   },
   {
     "ArtistID": 6,
     "Name": "Anjelah Johnson-Reyes",
     "Bio": "Stand-up comedian and actress born and raised in San Jose, California. Before comedy, she was an NFL cheerleader for the Oakland Raiderettes, earning Rookie of the Year honors and performing at Super Bowl XXXVII, before relocating to Los Angeles in 2005 to pursue comedy full-time. She rose to fame on MADtv, best known for character-based sketches like \"Bon Qui Qui\" and her nail salon bits, and has since released seven stand-up specials, including Say I Won't (2023) and Technically Not Stalking (2024), plus the podcast Funjelah.",
-    "PhotoURL": "",
+    "PhotoURL": "https://gothamartists.com/wp-content/uploads/2025/03/b33c9a9cd4706d75df410e413d5543e8-300x300.png",
     "WebsiteURL": "https://anjelah.com/"
   },
   {
     "ArtistID": 7,
     "Name": "Bert Kreischer",
     "Bio": "Stand-up comedian and podcaster born in St. Petersburg, Florida and raised in Tampa, who spent six years at Florida State University and became the subject of a notorious 1997 Rolling Stone profile chronicling a college trip to Russia — the origin of his signature story and nickname, \"The Machine,\" later adapted into a 2023 action-comedy film of the same name. Known for shirtless, high-energy storytelling built around outrageous personal anecdotes, he's released stand-up specials for Comedy Central and Netflix, including Secret Time (2018), Hey Big Boy (2020), and Razzle Dazzle (2023). Co-hosts the podcast 2 Bears, 1 Cave with Tom Segura and produces his own show, Bertcast.",
-    "PhotoURL": "",
+    "PhotoURL": "https://73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202210110081/1140x_a10-7_cTC/bert-kreisher_1759787546.jpg",
     "WebsiteURL": "https://bertbertbert.com/"
   },
   {
     "ArtistID": 8,
     "Name": "Bill Cosby",
     "Bio": "Stand-up comedian and storyteller from Philadelphia, PA, who served in the U.S. Navy before earning degrees from Temple University and UMass Amherst. He began performing in Philadelphia and New York clubs in the early 1960s, building his reputation on observational, conversational storytelling about childhood and family life rather than topical material. He holds the record for the most Grammy Awards for Best Comedy Album and is closely associated with the animated series Fat Albert and the Cosby Kids, which he created, and the sitcom The Cosby Show. His concert film Bill Cosby: Himself (1983) is widely regarded as one of the most influential stand-up specials ever made.",
-    "PhotoURL": "",
+    "PhotoURL": "https://static.wikia.nocookie.net/thecosbyshoww/images/9/9e/7577.jpg/revision/latest?cb=20100911144049",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 9,
     "Name": "Bill Engvall",
     "Bio": "Stand-up comedian and actor originally from Galveston, Texas, now based in Park City, Utah. Best known for his signature \"Here's Your Sign\" bit, he co-founded the Blue Collar Comedy Tour in 2000 alongside Jeff Foxworthy, Larry the Cable Guy, and Ron White. Created and starred in The Bill Engvall Show (2007–2009) and later joined the cast of Last Man Standing. Built a decades-long stand-up catalog anchored by his platinum-certified debut album Here's Your Sign (1996), and closed out his touring career with the farewell special Here's Your Sign, It's Finally Time — My Last Show (2023).",
-    "PhotoURL": "",
+    "PhotoURL": "https://news.illinoisstate.edu/files/2025/11/engvall.jpg",
     "WebsiteURL": "https://billengvall.com/"
   },
   {
     "ArtistID": 10,
     "Name": "Jeff Foxworthy",
     "Bio": "Stand-up comedian born and raised near Atlanta, Georgia, who spent five years in mainframe computer maintenance at IBM before winning Atlanta's Great Southeastern Laugh-Off in 1984 and turning to comedy full-time. Best known for his \"You Might Be a Redneck If…\" one-liners and as a founding member of the Blue Collar Comedy Tour alongside Larry the Cable Guy, Bill Engvall, and Ron White, he's billed as the largest-selling comedy-recording artist in history. Beyond stand-up, he's hosted the game show Are You Smarter Than a 5th Grader? and written the autobiography No Shirt, No Shoes… No Problem!, and continues to tour behind his latest special, The Joke's On Me (2026).",
-    "PhotoURL": "",
+    "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOuZ5DrgNQtxMy7K3Z5LPzoVVxfnJx0BqT_GkKmq9RNUDWHXW96ttCewz&s=10",
     "WebsiteURL": "https://jefffoxworthy.com/"
   },
   {
     "ArtistID": 11,
     "Name": "Bob Saget",
     "Bio": "Stand-up comedian, actor, and director born in Philadelphia, Pennsylvania, best known to mainstream audiences as wholesome single dad Danny Tanner on Full House and as the original host of America's Funniest Home Videos. Behind that squeaky-clean TV image, he built a parallel career as an unapologetically raunchy stand-up comic, a contrast he leaned into throughout his live shows and specials including That's What I'm Talkin' About (2013, Grammy-nominated) and Zero to Sixty (2017). He also hosted the podcast Bob Saget's Here For You. He died on January 9, 2022, at age 65, while on a stand-up tour.",
-    "PhotoURL": "",
+    "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzlz3DItR7nNhs9M_8pP2q0SceFTNr0BxHt8IiTnHeFvN_VBIRkacmwI&s=10",
     "WebsiteURL": "https://bobsaget.com"
   },
   {
     "ArtistID": 12,
     "Name": "Brad Stine",
     "Bio": "Stand-up comedian and actor based near Nashville, TN, raised in Bremen, Indiana. Nicknamed \"God's Comic\" after an 8-page New Yorker profile, he's built a three-decade career on a rapid-fire, politically conservative and Christian-inflected comedic style taking aim at political correctness and cancel culture. He's released numerous stand-up specials and DVDs, including Tolerate This!, Wussification, and his most recent, Laugh While It's Legal (2025), and hosts the podcast Brad Stine Has Issues.",
-    "PhotoURL": "",
+    "PhotoURL": "https://pbs.twimg.com/profile_images/1126956447156379648/1bs6Z7uS_400x400.png",
     "WebsiteURL": "https://bradstine.com/"
   },
   {
     "ArtistID": 13,
     "Name": "Brad Williams",
     "Bio": "Stand-up comedian from Orange County, California, based in the Los Angeles area, born with achondroplasia (a form of dwarfism), which is central to his self-deprecating comedic style. He got his start at 19 when Carlos Mencia pulled him onstage during a live show, and went on to become the first stand-up comedian to headline a Cirque du Soleil production, \"Mad Apple,\" in Las Vegas. He's released multiple one-hour specials — most recently Starfish (2023) and Live On Short Street (2026) — appeared in Netflix's stand-up showcase The Degenerates (2018), and co-hosts the podcast Heightened Babble with JB Ball.",
-    "PhotoURL": "",
+    "PhotoURL": "https://abc3340.com/resources/media2/1x1/550/1440/218x0/90/435b5179-bca6-4949-9507-732e71e9ff8d-063.jpg",
     "WebsiteURL": "https://bradwilliamscomedy.com/"
   },
   {
     "ArtistID": 14,
     "Name": "Bron Lewis",
     "Bio": "Melbourne, Australia-based stand-up comedian and writer, and a former high school teacher before pursuing comedy full-time. Co-winner of the National Raw Comedy competition in 2022, she was nominated for the Melbourne International Comedy Festival's Best Newcomer award in 2023 following her sold-out debut show, Probably. She's a writer for The Project and a regular panellist on Have You Been Paying Attention?, and her stand-up frequently draws on her life as a mother of three navigating parenting and everyday absurdities, most recently in her specials Obviously (2024) and Who's Talking?! (2025).",
-    "PhotoURL": "",
+    "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQycaNBt5SsuKQSqA2ubeVZZBDjYuDiK8EaIAxMggZFZRu0A07EE1FXQVq&s=10",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 15,
     "Name": "Chad Daniels",
     "Bio": "Stand-up comedian and Minnesota native who still bases himself in his hometown of Fergus Falls. He got his start in 1998 at open-mic nights at ACME Comedy Company in Minneapolis, developing a deadpan, self-deprecating style built on dry Midwestern humor about marriage, fatherhood, and small-town life. Three of his comedy albums have cracked the Billboard comedy top 10, and he's one of only 13 comics ever to appear on The Tonight Show with Conan O'Brien. He co-hosts the podcasts Pretend Problems and Middle of Somewhere, and released his Netflix debut special, Empty Nester, in 2024.",
-    "PhotoURL": "",
+    "PhotoURL": "https://i.scdn.co/image/ab6761610000517400dc2e206b47e7c8ea9bf42e",
     "WebsiteURL": "https://chaddaniels.com/"
   },
   {
     "ArtistID": 16,
     "Name": "Chonda Pierce",
     "Bio": "Stand-up comedian based near Nashville, Tennessee, known as comedy's \"Queen of Clean\" for her family-friendly, faith-rooted humor. Born in Covington, Kentucky and raised in South Carolina as a preacher's daughter, she got her start at Nashville's Opryland Theme Park before building a solo career that made her the RIAA's top-selling female comedian of all time, with 14 gold/platinum-certified DVDs. She's been openly candid about her struggles with depression, chronicling the deaths of her mother and husband in the 2015 documentary Chonda Pierce: Laughing in the Dark, and has founded Branches Recovery Center to provide counseling for depression, anxiety, and addiction.",
-    "PhotoURL": "",
+    "PhotoURL": "https://www.jesusfreakhideout.com/artists/full/chondapierce.jpg",
     "WebsiteURL": "https://chonda.org/"
   },
   {
     "ArtistID": 17,
     "Name": "Chris D'Elia",
     "Bio": "",
-    "PhotoURL": "",
+    "PhotoURL": "https://static.wikia.nocookie.net/nickelodeon/images/4/4b/Chris_D%27Elia.jpg/revision/latest?cb=20200912190519",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 18,
     "Name": "Christina P",
     "Bio": "",
-    "PhotoURL": "",
+    "PhotoURL": "https://i.ticketweb.com/i/00/07/83/76/31/Original.jpg?v=1",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 19,
     "Name": "Christopher Titus",
     "Bio": "",
-    "PhotoURL": "",
+    "PhotoURL": "https://www.blcomedy.com/img/comedians/Titus-71c907d4-main-image.jpg?1639762850",
     "WebsiteURL": ""
   },
   {
