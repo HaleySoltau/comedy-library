@@ -1,0 +1,807 @@
+[
+  {
+    "ArtistID": 1,
+    "Name": "Aaron Weber",
+    "Bio": "Standup comedian based in Nashville, TN and a regular performer at the Grand Ole Opry \u2014 the youngest comic ever to perform in the Opry circle. Originally from Montgomery, Alabama, he graduated from Notre Dame before pursuing comedy full-time. Co-hosts The Nateland Podcast with Nate Bargatze and Brian Bates, and released his debut special \"Signature Dish\" (executive produced by Bargatze/Nateland Entertainment).",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 2,
+    "Name": "Adam Sandler",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 3,
+    "Name": "Akaash Singh",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 4,
+    "Name": "Andrew Schulz",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 5,
+    "Name": "Anita Renfroe",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 6,
+    "Name": "Angela Johnson-Reyes",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 7,
+    "Name": "Bert Kreischer",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 8,
+    "Name": "Bill Cosby",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 9,
+    "Name": "Bill Engvall",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 10,
+    "Name": "Jeff Foxworthy",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 11,
+    "Name": "Bob Saget",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 12,
+    "Name": "Brad Stine",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 13,
+    "Name": "Brad Williams",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 14,
+    "Name": "Bron Lewis",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 15,
+    "Name": "Chad Daniels",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 16,
+    "Name": "Chonda Pierce",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 17,
+    "Name": "Chris D'Elia",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 18,
+    "Name": "Christina P",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 19,
+    "Name": "Christopher Titus",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 20,
+    "Name": "Daniel Sloss",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 21,
+    "Name": "Daren Streblow",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 22,
+    "Name": "Drew Lynch",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 23,
+    "Name": "Dustin Nickerson",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 24,
+    "Name": "Gabriel Iglesias",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 25,
+    "Name": "Gina Brillon",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 26,
+    "Name": "Greg Davies",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 27,
+    "Name": "Henry Cho",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 28,
+    "Name": "Iliza Shlesinger",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 29,
+    "Name": "JB Ball",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 30,
+    "Name": "Jack Whitehall",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 31,
+    "Name": "James Acaster",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 32,
+    "Name": "Jeff Allen",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 33,
+    "Name": "Jeff Dye",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 34,
+    "Name": "Jen Brister",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 35,
+    "Name": "Jim Gaffigan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 36,
+    "Name": "Jimmy Carr",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 37,
+    "Name": "Jo Koy",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 38,
+    "Name": "John Branyan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 39,
+    "Name": "John Crist",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 40,
+    "Name": "John Mulaney",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 41,
+    "Name": "Jonnie W",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 42,
+    "Name": "Jose Sarduy",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 43,
+    "Name": "Josh Blue",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 44,
+    "Name": "Josh Wolf",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 45,
+    "Name": "K-Von",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 46,
+    "Name": "Kathleen Madigan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 47,
+    "Name": "Kelsey Cook",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 48,
+    "Name": "Kenn Kington",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 49,
+    "Name": "Kevin Hart",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 50,
+    "Name": "Kevin James",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 51,
+    "Name": "Leanne Morgan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 52,
+    "Name": "Matt Rife",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 53,
+    "Name": "Michael Ian Black",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 54,
+    "Name": "Michael Jr",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 55,
+    "Name": "Michael McIntyre",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 56,
+    "Name": "Mike Birbiglia",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 57,
+    "Name": "Nate Bargatze",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 58,
+    "Name": "Norm Macdonald",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 59,
+    "Name": "Pete Holmes",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 60,
+    "Name": "Preacher Lawson",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 61,
+    "Name": "Ricky Gervais",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 62,
+    "Name": "Rob Schneider",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 63,
+    "Name": "Ron White",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 64,
+    "Name": "Russell Howard",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 65,
+    "Name": "Russell Peters",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 66,
+    "Name": "Sarah Millican",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 67,
+    "Name": "Shane Gillis",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 68,
+    "Name": "Tammy Pescatelli",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 69,
+    "Name": "Taylor Tomlinson",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 70,
+    "Name": "Theo Von",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 71,
+    "Name": "Tim Hawkins",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 72,
+    "Name": "Tom Papa",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 73,
+    "Name": "Tom Segura",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 74,
+    "Name": "Tommy Little",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 75,
+    "Name": "Trevor Noah",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 76,
+    "Name": "Zoltan Kaszas",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 77,
+    "Name": "Michael Yo",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 78,
+    "Name": "Sam Smith",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 79,
+    "Name": "Richard Villa",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 80,
+    "Name": "Kellen Erskine",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 81,
+    "Name": "Don McMillian",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 82,
+    "Name": "Monique Marvez",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 83,
+    "Name": "John Branyan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 84,
+    "Name": "Aaron Woodall",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 85,
+    "Name": "Cam Bertrand",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 86,
+    "Name": "Brad Upton",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 87,
+    "Name": "Jose Sarduy",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 88,
+    "Name": "Matt Falk",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 89,
+    "Name": "Chris Martian",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 90,
+    "Name": "Myles Weber",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 91,
+    "Name": "John Hastings",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 92,
+    "Name": "Ben Braiard",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 93,
+    "Name": "Andy Woodhull",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 94,
+    "Name": "Drew Barth",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 95,
+    "Name": "Mike Paramore",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 96,
+    "Name": "Tyler Boeh",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 97,
+    "Name": "Steve Hoestetter",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 98,
+    "Name": "Gabriel Rutledge",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 99,
+    "Name": "Rex Havens",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 100,
+    "Name": "Robert G. Lee",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 101,
+    "Name": "Nick Guerra",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 102,
+    "Name": "Mke P Burton",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 103,
+    "Name": "Moddy Molavi",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 104,
+    "Name": "Leland Klassen",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 105,
+    "Name": "Karen Morgan",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 106,
+    "Name": "JJ Barrows",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 107,
+    "Name": "Jamie Lissow",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 108,
+    "Name": "Kabir Singh",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 109,
+    "Name": "Fred Klett",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 110,
+    "Name": "Dave Nihill",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 111,
+    "Name": "Dwayne Perkins",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 112,
+    "Name": "Cleto Rodriguez",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 113,
+    "Name": "Armando Anto",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 114,
+    "Name": "Heath Harmison",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  },
+  {
+    "ArtistID": 115,
+    "Name": "Steve Soelberg",
+    "Bio": "",
+    "PhotoURL": "",
+    "WebsiteURL": ""
+  }
+]

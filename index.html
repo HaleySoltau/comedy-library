@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haley's Comedy Library</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="marquee">
+  <h1 class="marquee__title"><a href="index.html">🎤 The Comedy Library</a></h1>
+  <div class="marquee__subtitle">a curated collection, one ticket stub at a time</div>
+</header>
+
+<main class="container">
+
+  <section class="section" id="featured">
+    <div class="section__heading">
+      <h2>Tonight's Lineup</h2>
+      <span class="section__note" id="rotation-note"></span>
+    </div>
+    <div class="shorts-strip" id="shorts-strip"></div>
+  </section>
+
+  <section class="section" id="filters">
+    <div class="section__heading">
+      <h2>Browse by Style</h2>
+    </div>
+    <div class="tag-bar" id="tag-bar"></div>
+  </section>
+
+  <section class="section" id="artists">
+    <div class="section__heading">
+      <h2>All Comedians</h2>
+      <span class="section__note" id="artist-count"></span>
+    </div>
+    <div class="artist-grid" id="artist-grid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  Built with love (and a lot of stand-up specials) — data lives in <code>/data</code>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
