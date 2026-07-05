@@ -1,1 +1,22 @@
-[]
+[
+  { "ArtistID": 26, "Tag": "british" },
+  { "ArtistID": 30, "Tag": "british" },
+  { "ArtistID": 31, "Tag": "british" },
+  { "ArtistID": 34, "Tag": "british" },
+  { "ArtistID": 36, "Tag": "british" },
+  { "ArtistID": 55, "Tag": "british" },
+  { "ArtistID": 61, "Tag": "british" },
+  { "ArtistID": 64, "Tag": "british" },
+  { "ArtistID": 66, "Tag": "british" },
+  { "ArtistID": 74, "Tag": "australian" },
+  { "ArtistID": 14, "Tag": "australian" },
+  { "ArtistID": 5, "Tag": "christian" },
+  { "ArtistID": 12, "Tag": "christian" },
+  { "ArtistID": 16, "Tag": "christian" },
+  { "ArtistID": 32, "Tag": "christian" },
+  { "ArtistID": 38, "Tag": "christian" },
+  { "ArtistID": 41, "Tag": "christian" },
+  { "ArtistID": 48, "Tag": "christian" },
+  { "ArtistID": 54, "Tag": "christian" },
+  { "ArtistID": 71, "Tag": "christian" }
+]
