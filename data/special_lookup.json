@@ -397,5 +397,21 @@
   { "ArtistID": 78, "SpecialID": 396 },
   { "ArtistID": 78, "SpecialID": 397 },
   { "ArtistID": 80, "SpecialID": 398 },
-  { "ArtistID": 80, "SpecialID": 399 }
+  { "ArtistID": 80, "SpecialID": 399 },
+  { "ArtistID": 81, "SpecialID": 400 },
+  { "ArtistID": 81, "SpecialID": 401 },
+  { "ArtistID": 82, "SpecialID": 402 },
+  { "ArtistID": 82, "SpecialID": 403 },
+  { "ArtistID": 84, "SpecialID": 404 },
+  { "ArtistID": 84, "SpecialID": 405 },
+  { "ArtistID": 84, "SpecialID": 406 },
+  { "ArtistID": 85, "SpecialID": 407 },
+  { "ArtistID": 86, "SpecialID": 408 },
+  { "ArtistID": 86, "SpecialID": 409 },
+  { "ArtistID": 88, "SpecialID": 410 },
+  { "ArtistID": 88, "SpecialID": 411 },
+  { "ArtistID": 88, "SpecialID": 412 },
+  { "ArtistID": 88, "SpecialID": 413 },
+  { "ArtistID": 88, "SpecialID": 414 },
+  { "ArtistID": 89, "SpecialID": 415 }
 ]
