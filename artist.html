@@ -3,24 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Artist — The Comedy Library</title>
+<title>Artist — Comedy Library</title>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header class="marquee">
-  <h1 class="marquee__title"><a href="index.html">🎤 The Comedy Library</a></h1>
-</header>
+<nav class="site-nav">
+  <a class="site-nav__brand" href="index.html">🎤 Comedy Library</a>
+  <div class="site-nav__links">
+    <a class="site-nav__link" href="index.html">Home</a>
+    <a class="site-nav__link" href="browse-artists.html">Browse by Artist</a>
+    <a class="site-nav__link" href="browse-specials.html">Browse by Special</a>
+  </div>
+</nav>
 
 <main class="container">
-  <a href="index.html" class="back-link">← back to the lineup</a>
+  <div class="page-header" style="padding-bottom:0;">
+    <a href="browse-artists.html" class="back-link">← Back to Browse by Artist</a>
+  </div>
 
   <div id="artist-content">
     <div class="empty-state">Loading…</div>
   </div>
 
   <section class="section" id="specials-section" style="display:none;">
-    <div class="section__heading"><h2>Specials</h2></div>
+    <div class="section__heading"><h2 id="specials-heading">Specials</h2></div>
     <div id="specials-list"></div>
   </section>
 
@@ -34,6 +41,7 @@
   Built with love (and a lot of stand-up specials) — data lives in <code>/data</code>
 </footer>
 
+<script src="js/common.js"></script>
 <script src="js/artist.js"></script>
 </body>
 </html>

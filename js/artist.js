@@ -1,16 +1,7 @@
 /* ============================================
    Comedy Library — artist detail page logic
+   (loadJSON / helpers come from js/common.js)
    ============================================ */
-
-async function loadJSON(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`Failed to load ${path}`);
-  return res.json();
-}
-
-function initials(name) {
-  return name.split(' ').map(w => w[0]).slice(0, 2).join('').toUpperCase();
-}
 
 async function init() {
   const params = new URLSearchParams(window.location.search);
@@ -37,21 +28,21 @@ async function init() {
       return;
     }
 
-    document.title = `${artist.Name} — The Comedy Library`;
+    document.title = `${artist.Name} — Comedy Library`;
 
-    const artistTags = tags.filter(t => String(t.ArtistID) === String(artistId)).map(t => t.Tag);
+    const artistTags = tagsForArtist(tags, artistId);
     const photo = artist.PhotoURL ? `style="background-image:url('${artist.PhotoURL}')"` : '';
 
     content.innerHTML = `
       <div class="artist-header">
         <div class="artist-header__photo" ${photo}>
-          ${artist.PhotoURL ? '' : `<div style="display:flex;align-items:center;justify-content:center;height:100%;font-family:var(--font-display);font-size:2.5rem;color:var(--gold-dim);">${initials(artist.Name)}</div>`}
+          ${artist.PhotoURL ? '' : `<div style="display:flex;align-items:center;justify-content:center;height:100%;font-family:var(--font-display);font-size:2.75rem;color:var(--primary);">${initials(artist.Name)}</div>`}
         </div>
         <div>
           <h1 class="artist-header__name">${artist.Name}</h1>
           ${artist.WebsiteURL ? `<a class="artist-header__website" href="${artist.WebsiteURL}" target="_blank" rel="noopener">${artist.WebsiteURL}</a>` : ''}
-          <div class="stub__tags" style="margin-top:0.6rem;">
-            ${artistTags.map(t => `<span class="stub__tag">${t}</span>`).join('')}
+          <div class="artist-header__tags">
+            ${artistTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}
           </div>
         </div>
       </div>
@@ -59,21 +50,24 @@ async function init() {
     `;
 
     // Specials for this artist (via lookup table, since specials can have multiple comedians)
-    const specialIds = lookup.filter(l => String(l.ArtistID) === String(artistId)).map(l => l.SpecialID);
+    const specialIds = specialIdsForArtist(lookup, artistId);
     const artistSpecials = specials.filter(s => specialIds.includes(s.SpecialID));
 
     const specialsSection = document.getElementById('specials-section');
     const specialsList = document.getElementById('specials-list');
+    const specialsHeading = document.getElementById('specials-heading');
     if (artistSpecials.length > 0) {
       specialsSection.style.display = '';
+      specialsHeading.textContent = `Specials by ${artist.Name}`;
       specialsList.innerHTML = artistSpecials.map(s => `
-        <div class="stub" style="margin-bottom:0.8rem;">
-          <div class="stub__body" style="width:100%;">
-            <p class="stub__name">
-              ${s.YouTubeLink ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
-              ${s.AiredYear ? `<span class="section__note"> · ${s.AiredYear}</span>` : ''}
-            </p>
-            <span class="rating-stamp">${s.LanguageLevel || '?'} language · ${s.ContentLevel || '?'} content</span>
+        <div class="special-row">
+          <p class="special-row__title">
+            ${s.YouTubeLink ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
+            ${s.AiredYear ? `<span class="special-row__year"> · Aired ${s.AiredYear}</span>` : ''}
+          </p>
+          <div class="special-row__badges">
+            <span class="badge">${s.LanguageLevel || '?'}</span>
+            <span class="badge">${s.ContentLevel || '?'}</span>
           </div>
         </div>
       `).join('');
@@ -86,12 +80,12 @@ async function init() {
     if (artistShorts.length > 0) {
       shortsSection.style.display = '';
       shortsGrid.innerHTML = artistShorts.map(s => `
-        <div class="short-card">
+        <div class="card">
           <div class="short-card__embed">
             <iframe src="${s.EmbedLink}" title="${s.Title}" allowfullscreen loading="lazy"></iframe>
           </div>
           <div class="short-card__body">
-            <p class="short-card__title">${s.Title}</p>
+            <p class="short-card__title">"${s.Title}"</p>
           </div>
         </div>
       `).join('');

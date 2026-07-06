@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse by Special — Comedy Library</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="site-nav__brand" href="index.html">🎤 Comedy Library</a>
+  <div class="site-nav__links">
+    <a class="site-nav__link" href="index.html">Home</a>
+    <a class="site-nav__link" href="browse-artists.html">Browse by Artist</a>
+    <a class="site-nav__link active" href="browse-specials.html">Browse by Special</a>
+  </div>
+</nav>
+
+<main class="container">
+
+  <div class="page-header">
+    <h1>Browse by Special</h1>
+    <p class="page-header__sub" id="special-count"></p>
+  </div>
+
+  <div class="controls">
+    <div class="search-field">
+      <input class="search-input" id="special-search" type="text" placeholder="Search specials...">
+    </div>
+    <select class="filter-select" id="special-tag-filter">
+      <option value="">Tag: Any</option>
+    </select>
+    <select class="filter-select" id="artist-style-filter">
+      <option value="">Artist style: Any</option>
+    </select>
+  </div>
+
+  <div class="active-filters" id="active-filters"></div>
+
+  <section class="section">
+    <div class="special-grid" id="special-grid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  Built with love (and a lot of stand-up specials) — data lives in <code>/data</code>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/browse-specials.js"></script>
+</body>
+</html>
