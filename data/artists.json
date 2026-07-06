@@ -546,6 +546,13 @@
     "WebsiteURL": "https://www.shaynesmithcomedy.com/"
   },
   {
+    "ArtistID": 79,
+    "Name": "Mario Adrion",
+    "Bio": "Stand-up comedian born in Alpirsbach, Germany, now based in Los Angeles. A former fashion model who walked runways at New York Fashion Week before pivoting to YouTube comedy in 2017 and stand-up at clubs including the Hollywood Improv and Laugh Factory, he broke through with a viral 2021 American Idol catwalk segment alongside Katy Perry. Known for self-deprecating jokes about being a retired male model navigating America as a European, he's built a following of more than 4 million across social media and hosts the podcast UNCENSORED with Mario Adrion. He released his debut special, My Struggle, in 2026.",
+    "PhotoURL": "",
+    "WebsiteURL": "https://www.marioadrion.com/"
+  },
+  {
     "ArtistID": 80,
     "Name": "Kellen Erskine",
     "Bio": "Stand-up comedian known for a calm, deadpan, cerebral style built on mundane topics like banana bread and grocery stores, layered with dense callback jokes. He broke through with a 2018 Just For Laughs Montreal \"New Faces\" showcase slot and a stand-up debut on Conan, having been named one of TBS's Top Ten Comics to Watch in 2017. A single joke of his about bike locks has drawn tens of millions of views on Dry Bar Comedy clips online. He co-hosts the podcast The Book Pile and has released the specials Composed (2017, Dry Bar Comedy) and Negative Comments (2024, Dry Bar Comedy).",
@@ -653,44 +660,44 @@
   {
     "ArtistID": 97,
     "Name": "Steve Hoestetter",
-    "Bio": "",
+    "Bio": "Stand-up comedian, writer, and podcaster from Queens, New York, who graduated from Columbia University before building an early following through viral crowd-work and heckler-takedown clips on YouTube, now with nearly 300 million views. He's hosted and executive produced Fox's syndicated series Laughs and worked as a comedy correspondent for FOX Sports, and founded the Steel City Arts Foundation in Pittsburgh. A prolific author, his books include Ginger Kid: Mostly True Tales from a Former Nerd and Follow Your Dream (Unless Your Dream Is Stupid), and he's released a long string of comedy albums, including Cure for the Cable Guy (2006) and Ginger Kid (2015).",
     "PhotoURL": "https://www.wiseguyscomedy.com/_next/image?url=https%3A%2F%2Ffiles.seatengine.com%2Ftalent%2Fheadshots%2Fphotos%2F65964%2Ffull%2Fdata&w=640&q=75",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.stevehofstetter.com/"
   },
   {
     "ArtistID": 98,
     "Name": "Gabriel Rutledge",
-    "Bio": "",
+    "Bio": "Stand-up comedian born in Bay Center, Washington and raised in South Bend, WA, now based in Olympia, WA. A former decade-long punk rock band member, he left a pizza delivery job in 2000 to pursue comedy full-time, going on to win the Seattle International Comedy Competition (2004) and the Laughing Skull Comedy Festival in Atlanta (2017). Known for observational, family- and marriage-driven humor, he's appeared on Comedy Central's Live at Gotham and Nickelodeon's NickMom Night Out, authored the books Happiness Isn't Funny: True Stories of a Road Comic and There's No F@!*ing Way You're Getting A Pony, and co-hosts the podcast The Rutledges with his wife, Kristi. He's released the specials One Third of the Room (2022, Dry Bar Comedy) and Nectarine (2024).",
     "PhotoURL": "https://comedy.tickets/wp-content/uploads/2023/07/Gabriel-Rutledge.jpg",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.gabrielrutledge.com/"
   },
   {
     "ArtistID": 99,
     "Name": "Rex Havens",
-    "Bio": "",
+    "Bio": "Clean, family-oriented stand-up comedian who holds a JD and MBA and worked as a college business/law professor and corporate attorney before leaving law in 1991 to pursue comedy full-time. Over a three-decade career he's performed in all 50 states and internationally — including London, Hong Kong, and Montreal — with television credits on Showtime, Comedy Central, and Comic Relief, plus regular appearances on the nationally syndicated Bob & Tom radio show. Known for tasteful, marriage-focused humor, he's released the book and CD Everything I Needed to Know I Learned From My Wife! and a follow-up show, Women & Children First.",
     "PhotoURL": "https://www.eaglestalent.com/wp-content/uploads/2019/04/Rex-Havens-1.jpg",
     "WebsiteURL": ""
   },
   {
     "ArtistID": 100,
     "Name": "Robert G. Lee",
-    "Bio": "",
+    "Bio": "Clean, faith-inflected stand-up comedian raised in Indiana who relocated to Hollywood and spent more than 35 years as one of the industry's most heavily booked network-TV warm-up comedians, working over 1,500 episodes of sitcoms including Cheers, Two and a Half Men, The Drew Carey Show, and Last Man Standing. He got an early break with a role on The Golden Girls, later became a writer for VeggieTales, and wrote and directed the faith-based comedy film Can I Get a Witness Protection? Known for a 100%-clean, family-friendly style he describes as combining a Christian worldview with a Monty Python sensibility, he's released more than ten comedy specials, including Laughter's Still Legal (2020, Dry Bar Comedy), You Need To Apologize For Everything You Didn't Do, and A to Z.",
     "PhotoURL": "https://cleancomedians.com/wp-content/uploads/2019/03/Robert-G.-Lee1388-72dpi-e1633467636809.jpg",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.robertglee.com/"
   },
   {
     "ArtistID": 101,
     "Name": "Nick Guerra",
-    "Bio": "",
+    "Bio": "Stand-up comedian from McAllen, Texas, who broke through by winning NBC's 2015 StandUp Showcase and making his TV debut on Comedy Central's Stand Up Revolution with Gabriel Iglesias. He became a fan favorite on NBC's Last Comic Standing and was featured in HBO's Entre Nos series, which led to his own HBO Latino special, Love Me at My Worst (2020), filmed live in San Antonio. Known for personal, relationship-driven storytelling that fans describe as almost cathartic, he's also appeared on The Tonight Show Starring Jimmy Fallon and released the Dry Bar Comedy special Enjoy Life (2020).",
     "PhotoURL": "https://spotlight29.com/wp-content/uploads/sites/6/2025/09/nick-guerra-2.jpg",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://nickguerra.com/"
   },
   {
     "ArtistID": 102,
     "Name": "Mike P Burton",
-    "Bio": "",
+    "Bio": "Stand-up comedian raised between North Carolina and Delaware, who earned a theatre degree from Catawba College before moving to New York City, where he paid five dollars for five minutes at his first open mic in the mid-1990s. He built a career as a longtime warm-up comedian for TV talk shows including The Revolution and Bethenny, with fill-in appearances on Rachael Ray, The View, and Dr. Oz. Known for high-energy, personal storytelling — including a recurring bit about being \"the whitest guy in New York\" — he's released the Dry Bar Comedy specials I Can Get Whiter (2018) and The Whitest Guy In New York (2020).",
     "PhotoURL": "https://newyorkcomedyclub.com/img/comedians/mike-burton-b00f0a22-main-image.jpg?1568663490",
-    "WebsiteURL": ""
+    "WebsiteURL": "http://www.mikepburton.com/"
   },
   {
     "ArtistID": 103,
