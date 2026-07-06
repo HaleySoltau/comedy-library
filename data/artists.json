@@ -513,37 +513,37 @@
   {
     "ArtistID": 74,
     "Name": "Tommy Little",
-    "Bio": "",
+    "Bio": "Stand-up comedian, radio and TV host from Melbourne, Australia, where he's still based. He studied drama at Deakin University before a friend encouraged him to try stand-up, breaking through on Melbourne's live circuit and debuting at the Melbourne International Comedy Festival in 2009. Known for laid-back, self-deprecating storytelling about his own mishaps, he co-hosted Network 10's The Project for years and has hosted Whose Line Is It Anyway? Australia, A League of Their Own, and Taskmaster Australia. He's released three specials for Amazon Prime Video: Self-Diagnosed Genius (2020), I'll See Myself Out (2021), and Pretty Fly for a Dickhead (2023).",
     "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCHf9lKKuT1Az1B4Q2OFnISCnSGwfbcsCefJwNtc15IxfVQXIPQg7IUZo&s=10",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://tommylittle.com.au/"
   },
   {
     "ArtistID": 75,
     "Name": "Trevor Noah",
-    "Bio": "",
+    "Bio": "Stand-up comedian, writer, and television host born in Johannesburg, South Africa and raised in Soweto during apartheid, the son of a Xhosa mother and Swiss-German father — an origin story he chronicled in his bestselling memoir Born a Crime (2016). He built an early career in South African television and radio before becoming a Daily Show correspondent in 2014 and, months later, Jon Stewart's surprise successor as host, a role he held from 2015 to 2022. Known for globally minded political and cultural satire delivered in multiple languages, he's hosted the Grammy Awards annually since 2021, voiced Griot in Marvel's Black Panther films, and hosts the podcast What Now? with Trevor Noah. His extensive stand-up catalog includes the Netflix specials Afraid of the Dark (2017), Son of Patricia (2018), I Wish You Would (2022), Where Was I (2023), and Joy in the Trenches (2026).",
     "PhotoURL": "https://trevornoahfoundation.org/wp-content/uploads/2022/06/Trevor-Noah_CAA-Speakers_Photo-Credit-Gavin-Bond-e1659085632847-768x667.jpg",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.trevornoah.com/"
   },
   {
     "ArtistID": 76,
     "Name": "Zoltan Kaszas",
-    "Bio": "",
+    "Bio": "Stand-up comedian born in Budapest, Hungary and raised from age four in Pittsburgh and then San Diego, California, where he still bases his career. He bombed his first open mic in 2006 but stuck with stand-up anyway, later winning the Seattle International Comedy Competition and the San Diego Funniest Person Contest. Known for relatable, observational humor, he became a viral breakout star when a Dry Bar Comedy clip about cats versus dogs drew more than 60 million views on Facebook. He's released a string of specials including Cat Jokes (2017, Dry Bar Comedy), Average Intelligence (2022, Dry Bar Comedy), and the self-released White Lies (2023), Honorary Jones (2024), and London Fog (2025).",
     "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ7ne0xaTkH061ffc_nImpVQvWpvdVFL3AmFe_GODrlBJy-NYvukzYrs6r&s=10",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.zoltancomedy.com/"
   },
   {
     "ArtistID": 77,
     "Name": "Michael Yo",
-    "Bio": "",
+    "Bio": "Stand-up comedian, radio and TV personality born in Houston, Texas to a Black American father and Korean mother, who played football at the University of Arkansas before a concussion history ended that path. He broke into entertainment through Houston radio internships and DJ gigs before becoming an on-air correspondent for E! News, The Daily 10, and Extra, later mentored into stand-up by Chelsea Handler and Jo Koy. Known for clean, corporate-friendly comedy about his multicultural family and upbringing, he's a two-time Emmy nominee, advanced to the quarterfinals of America's Got Talent (Season 15), and holds a weekly residency at Jimmy Kimmel's Comedy Club in Las Vegas. He's released the specials Blasian (2018), I Never Thought (2022), and Snack Daddy (2025).",
     "PhotoURL": "https://www.newcitystage.com/wp-content/uploads/2023/03/MichaelYo_image.png",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.michaelyo.com/"
   },
   {
     "ArtistID": 78,
     "Name": "Shaye Smith",
-    "Bio": "",
+    "Bio": "Stand-up comedian and rock vocalist raised in Fillmore, Utah, who got his start performing at Salt Lake City's Wiseguys Comedy Club in 2014 after cutting his teeth in the local punk music scene as a singer for the band Painted Devils. Named \"Best Alternative Comedian of 2016\" by Salt Lake City's City Weekly, he's known for goofy, physical, Muppets-influenced comedy built on authentic personal anecdotes rather than cynicism. He co-hosts the podcasts Freaky Geeks and Cowboy Boys, and has released a string of Dry Bar Comedy specials, including Prison for Wizards (2017), Alligator Boys (2019), Banned From Karate (2023), and Ghosts Are Real (2025).",
     "PhotoURL": "https://images.angelstudios.com/image/upload/c_limit,w_256,q_auto,f_webp/v1761761177/studio-app/catalog/180ea06b-383b-4b3c-9e04-b9a9083de107",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.shaynesmithcomedy.com/"
   },
   {
     "ArtistID": 79,
@@ -555,9 +555,9 @@
   {
     "ArtistID": 80,
     "Name": "Kellen Erskine",
-    "Bio": "",
+    "Bio": "Stand-up comedian known for a calm, deadpan, cerebral style built on mundane topics like banana bread and grocery stores, layered with dense callback jokes. He broke through with a 2018 Just For Laughs Montreal \"New Faces\" showcase slot and a stand-up debut on Conan, having been named one of TBS's Top Ten Comics to Watch in 2017. A single joke of his about bike locks has drawn tens of millions of views on Dry Bar Comedy clips online. He co-hosts the podcast The Book Pile and has released the specials Composed (2017, Dry Bar Comedy) and Negative Comments (2024, Dry Bar Comedy).",
     "PhotoURL": "https://comedyworks.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjUyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--c579a014c3b11eb7e34322fd34464ebe66984e1e/KellenErskine_car.jpg",
-    "WebsiteURL": ""
+    "WebsiteURL": "https://www.kellenerskine.com/"
   },
   {
     "ArtistID": 81,
