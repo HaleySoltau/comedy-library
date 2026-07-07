@@ -33,6 +33,8 @@ async function init() {
     const artistTags = tagsForArtist(tags, artistId);
     const photo = artist.PhotoURL ? `style="background-image:url('${artist.PhotoURL}')"` : '';
 
+    document.getElementById('artist-social-icons').innerHTML = renderSocialIcons(artist);
+
     content.innerHTML = `
       <div class="artist-header">
         <div class="artist-header__photo" ${photo}>
@@ -41,6 +43,7 @@ async function init() {
         <div>
           <h1 class="artist-header__name">${artist.Name}</h1>
           ${artist.WebsiteURL ? `<a class="artist-header__website" href="${artist.WebsiteURL}" target="_blank" rel="noopener">${artist.WebsiteURL}</a>` : ''}
+          ${renderTicketsLink(artist)}
           <div class="artist-header__tags">
             ${artistTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}
           </div>
@@ -59,18 +62,29 @@ async function init() {
     if (artistSpecials.length > 0) {
       specialsSection.style.display = '';
       specialsHeading.textContent = `Specials by ${artist.Name}`;
-      specialsList.innerHTML = artistSpecials.map(s => `
-        <div class="special-row">
-          <p class="special-row__title">
-            ${s.YouTubeLink ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
-            ${s.AiredYear ? `<span class="special-row__year"> · Aired ${s.AiredYear}</span>` : ''}
-          </p>
-          <div class="special-row__badges">
-            <span class="badge">${s.LanguageLevel || '?'}</span>
-            <span class="badge">${s.ContentLevel || '?'}</span>
+      specialsList.innerHTML = artistSpecials.map(s => {
+        const hasVideo = Boolean(s.YouTubeLink);
+        const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
+        return `
+          <div class="special-row${hasVideo ? ' has-video' : ''}">
+            <div class="special-row__poster">
+              <img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
+              ${hasVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
+            </div>
+            <div class="special-row__info">
+              <p class="special-row__title">
+                ${hasVideo ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
+                ${s.AiredYear ? `<span class="special-row__year"> · Aired ${s.AiredYear}</span>` : ''}
+              </p>
+              <div class="special-row__badges">
+                ${hasVideo ? `<span class="watch-pill">${PLAY_ICON}WATCH</span>` : ''}
+                <span class="badge">${s.LanguageLevel || '?'}</span>
+                <span class="badge">${s.ContentLevel || '?'}</span>
+              </div>
+            </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
     // Shorts for this artist

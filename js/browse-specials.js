@@ -89,17 +89,20 @@ function renderSpecialGrid() {
     const wrapperTag = artists[0] ? 'a' : 'div';
     const hrefAttr = artists[0] ? `href="artist.html?id=${artists[0].ArtistID}"` : '';
     const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
+    const hasVideo = Boolean(s.YouTubeLink);
 
     return `
-      <${wrapperTag} class="card special-card" ${hrefAttr}>
+      <${wrapperTag} class="card special-card${hasVideo ? ' has-video' : ''}" ${hrefAttr}>
         <div class="special-card__poster">
           <img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
+          ${hasVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
         </div>
         <div class="card__perf"></div>
         <div class="special-card__body">
           <p class="special-card__title">${s.Title}</p>
           <p class="special-card__meta">${artistNames}${s.AiredYear ? ` · ${s.AiredYear}` : ''}</p>
           <div class="special-card__badges">
+            ${hasVideo ? `<span class="watch-pill">${PLAY_ICON}WATCH</span>` : ''}
             <span class="badge">${s.LanguageLevel || '?'}</span>
             <span class="badge">${s.ContentLevel || '?'}</span>
           </div>
