@@ -91,6 +91,19 @@ function matchesSearch(text, query) {
 
 const PLAY_ICON = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg>';
 
+const EXPAND_ICON = '<svg viewBox="0 0 24 24"><path d="M9 3H3v6h2V5h4V3Zm12 0h-6v2h4v4h2V3ZM5 15H3v6h6v-2H5v-4Zm14 4h-4v2h6v-6h-2v4Z"/></svg>';
+
+const CLOSE_ICON = '<svg viewBox="0 0 24 24"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6L19 6.4 17.6 5 12 10.6Z"/></svg>';
+
+// Appends autoplay=1 to a YouTube embed URL (only — other providers like
+// Instagram don't support it reliably via query param) so an expanded
+// video starts playing immediately off the user's click gesture.
+function withAutoplay(embedLink) {
+  if (!embedLink.includes('youtube.com/embed')) return embedLink;
+  const sep = embedLink.includes('?') ? '&' : '?';
+  return `${embedLink}${sep}autoplay=1`;
+}
+
 /* ---------- Streaming platform ("Watch on X") pills for specials that
    aren't on YouTube — colors are per-platform brand accents, with a
    muted-purple fallback matching the site's existing chip style. ---------- */

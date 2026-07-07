@@ -400,6 +400,7 @@ img { max-width: 100%; display: block; }
 .short-card__embed {
   aspect-ratio: 16 / 9;
   background: #000;
+  position: relative;
 }
 
 .short-card__embed iframe {
@@ -407,6 +408,87 @@ img { max-width: 100%; display: block; }
   height: 100%;
   border: 0;
   display: block;
+}
+
+.short-card__expand {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(10, 6, 26, 0.65);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.short-card__expand svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.short-card__expand:hover { background: var(--accent); color: var(--bg); }
+
+/* ---------- Video lightbox — expands a clip to window width on demand ---------- */
+
+.video-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 3, 20, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.video-lightbox__inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  box-shadow: var(--shadow-card-hover);
+}
+
+.video-lightbox__inner iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.video-lightbox__close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(245, 243, 255, 0.1);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.video-lightbox__close svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.video-lightbox__close:hover { background: var(--accent); color: var(--bg); }
+
+@media (max-width: 640px) {
+  .video-lightbox { padding: 1rem; }
+  .video-lightbox__close { top: -2.2rem; }
 }
 
 .short-card__body {

@@ -95,6 +95,7 @@ function renderFeaturedShorts() {
       <div class="card">
         <div class="short-card__embed">
           <iframe src="${short.EmbedLink}" title="${short.Title}" allowfullscreen loading="lazy"></iframe>
+          <button class="short-card__expand" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Expand ${short.Title}">${EXPAND_ICON}</button>
         </div>
         <div class="short-card__body">
           <p class="short-card__title">"${short.Title}"</p>
@@ -103,6 +104,35 @@ function renderFeaturedShorts() {
       </div>
     `;
   }).join('');
+
+  strip.querySelectorAll('.short-card__expand').forEach(btn => {
+    btn.addEventListener('click', () => openVideoLightbox(btn.dataset.embed, btn.dataset.title));
+  });
+}
+
+/* ---------- Video lightbox — expands a clip to window width, same aspect ratio ---------- */
+
+function openVideoLightbox(embedLink, title) {
+  const lightbox = document.createElement('div');
+  lightbox.className = 'video-lightbox';
+  lightbox.innerHTML = `
+    <div class="video-lightbox__inner">
+      <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
+      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    </div>
+  `;
+
+  const close = () => {
+    lightbox.remove();
+    document.removeEventListener('keydown', onKeydown);
+  };
+  const onKeydown = (e) => { if (e.key === 'Escape') close(); };
+
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) close(); });
+  lightbox.querySelector('.video-lightbox__close').addEventListener('click', close);
+  document.addEventListener('keydown', onKeydown);
+
+  document.body.appendChild(lightbox);
 }
 
 /* ---------- Init ---------- */
