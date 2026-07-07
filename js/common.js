@@ -91,6 +91,45 @@ function matchesSearch(text, query) {
 
 const PLAY_ICON = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg>';
 
+/* ---------- Streaming platform ("Watch on X") pills for specials that
+   aren't on YouTube — colors are per-platform brand accents, with a
+   muted-purple fallback matching the site's existing chip style. ---------- */
+
+const PLATFORM_COLORS = {
+  "Netflix":      { bg: "#8C0A11", text: "#FFFFFF" },
+  "HBO Max":      { bg: "#3E2074", text: "#FFFFFF" },
+  "Prime Video":  { bg: "#0D5B7A", text: "#FFFFFF" },
+  "Hulu":         { bg: "#0F5C3E", text: "#FFFFFF" },
+  "Paramount+":   { bg: "#1E3F8C", text: "#FFFFFF" },
+  "Apple TV+":    { bg: "#2A2A2A", text: "#FFFFFF" },
+  "Peacock":      { bg: "#5B3A8C", text: "#FFFFFF" },
+  "default":      { bg: "#372B63", text: "#D9CFFB" },
+};
+
+// Builds a search-results URL for a special's title on its streaming platform.
+// Deliberately not a stored deep link — per-title/episode URLs aren't stable
+// across platforms, so we send viewers to search instead.
+function platformSearchUrl(platform, title) {
+  const q = encodeURIComponent(title);
+  const urls = {
+    "Netflix":     `https://www.netflix.com/search?q=${q}`,
+    "HBO Max":     `https://play.max.com/search?q=${q}`,
+    "Prime Video": `https://www.amazon.com/s?k=${encodeURIComponent(title + " prime video")}&i=instant-video`,
+    "Hulu":        `https://www.hulu.com/search?q=${q}`,
+    "Paramount+":  `https://www.paramountplus.com/search?query=${q}`,
+    "Apple TV+":   `https://tv.apple.com/search?term=${q}`,
+    "Peacock":     `https://www.peacocktv.com/search?q=${q}`,
+  };
+  return urls[platform] || `https://www.google.com/search?q=${encodeURIComponent(title + " " + platform)}`;
+}
+
+// Renders the "Watch on {Platform}" pill for specials without a YouTubeLink.
+function renderPlatformPill(special) {
+  const colors = PLATFORM_COLORS[special.Platform] || PLATFORM_COLORS.default;
+  const url = platformSearchUrl(special.Platform, special.Title);
+  return `<a class="watch-pill watch-pill--platform" href="${url}" target="_blank" rel="noopener noreferrer" style="background:${colors.bg};color:${colors.text};">Watch on ${special.Platform}</a>`;
+}
+
 const TICKET_ICON = '<svg viewBox="0 0 24 24"><path d="M22 10V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v4a2 2 0 0 1 0 4v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 1 0-4Zm-2-1.73a3.99 3.99 0 0 0 0 7.46V18H4v-2.27a3.99 3.99 0 0 0 0-7.46V6h16Z"/></svg>';
 
 const SOCIAL_ICONS = {

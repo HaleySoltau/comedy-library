@@ -559,20 +559,23 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
 }
 
-/* ---------- "Pop" state — specials with a real YouTubeLink stand out;
-   specials without one read as flat/muted. Shared by special-card
-   (Browse by Special) and special-row (Artist Detail). ---------- */
+/* ---------- Three visual states, in priority order:
+   1. .has-video   — real YouTubeLink: full "pop" treatment (play badge, bright title, WATCH pill)
+   2. .has-platform — known streaming home but no YouTubeLink: bright title, no play badge
+      (not embeddable inline), "Watch on {Platform}" pill instead of a static WATCH pill
+   3. neither — genuinely unknown yet: muted poster scrim + muted title, no badge
+   Shared by special-card (Browse by Special) and special-row (Artist Detail). ---------- */
 
-.special-card:not(.has-video) .special-card__poster::after,
-.special-row:not(.has-video) .special-row__poster::after {
+.special-card:not(.has-video):not(.has-platform) .special-card__poster::after,
+.special-row:not(.has-video):not(.has-platform) .special-row__poster::after {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(10, 6, 26, 0.6);
 }
 
-.special-card:not(.has-video) .special-card__title,
-.special-row:not(.has-video) .special-row__title {
+.special-card:not(.has-video):not(.has-platform) .special-card__title,
+.special-row:not(.has-video):not(.has-platform) .special-row__title {
   color: var(--muted);
   font-weight: 500;
 }

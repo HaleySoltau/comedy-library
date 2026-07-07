@@ -90,6 +90,8 @@ function renderSpecialGrid() {
       : 'Unknown artist';
     const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
     const hasVideo = Boolean(s.YouTubeLink);
+    const hasPlatform = !hasVideo && Boolean(s.Platform);
+    const stateClass = hasVideo ? ' has-video' : hasPlatform ? ' has-platform' : '';
 
     const posterImg = `<img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">`;
     const posterBlock = hasVideo
@@ -103,15 +105,21 @@ function renderSpecialGrid() {
       ? `<a class="special-card__title-link" href="artist.html?id=${artists[0].ArtistID}">${title}</a>`
       : title;
 
+    const watchBadge = hasVideo
+      ? `<a class="watch-pill" href="${s.YouTubeLink}" target="_blank" rel="noopener">${PLAY_ICON}WATCH</a>`
+      : hasPlatform
+        ? renderPlatformPill(s)
+        : '';
+
     return `
-      <div class="card special-card${hasVideo ? ' has-video' : ''}">
+      <div class="card special-card${stateClass}">
         ${posterBlock}
         <div class="card__perf"></div>
         <div class="special-card__body">
           ${titleBlock}
           <p class="special-card__meta">${artistNames}${s.AiredYear ? ` · ${s.AiredYear}` : ''}</p>
           <div class="special-card__badges">
-            ${hasVideo ? `<a class="watch-pill" href="${s.YouTubeLink}" target="_blank" rel="noopener">${PLAY_ICON}WATCH</a>` : ''}
+            ${watchBadge}
             <span class="badge">${s.LanguageLevel || '?'}</span>
             <span class="badge">${s.ContentLevel || '?'}</span>
           </div>
