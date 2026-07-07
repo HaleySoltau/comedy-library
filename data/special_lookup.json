@@ -488,5 +488,8 @@
   { "ArtistID": 117, "SpecialID": 487 },
   { "ArtistID": 117, "SpecialID": 488 },
   { "ArtistID": 117, "SpecialID": 489 },
-  { "ArtistID": 33, "SpecialID": 490 }
+  { "ArtistID": 33, "SpecialID": 490 },
+  { "ArtistID": 1, "SpecialID": 491 },
+  { "ArtistID": 99, "SpecialID": 492 },
+  { "ArtistID": 99, "SpecialID": 493 }
 ]

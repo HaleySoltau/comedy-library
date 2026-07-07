@@ -3,5 +3,6 @@
   { "ArtistID": 38, "Title": "The three little pigs", "EmbedLink": "https://www.youtube.com/embed/OxoUUbMii7Q?start=3" },
   { "ArtistID": 33, "Title": "Best thing that ever happened to me", "EmbedLink": "https://www.youtube.com/embed/WC20hnlzypc" },
   { "ArtistID": 47, "Title": "Autocorrect Gone Horribly Wrong", "EmbedLink": "https://www.youtube.com/embed/J5eoSQLIQvI" },
-  { "ArtistID": 15, "Title": "The Festival", "EmbedLink": "https://www.youtube.com/embed/ccVHbN-ndK0" }
+  { "ArtistID": 15, "Title": "The Festival", "EmbedLink": "https://www.youtube.com/embed/ccVHbN-ndK0" },
+  { "ArtistID": 23, "Title": "New Kids are like New Phones", "EmbedLink": "https://www.youtube.com/embed/CPaKxJAp7Og" }
 ]
