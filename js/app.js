@@ -91,12 +91,13 @@ function renderFeaturedShorts() {
     const moreLink = artist
       ? `<a class="short-card__more" href="artist.html?id=${artist.ArtistID}">More from ${artist.Name} →</a>`
       : '';
+    const poster = youTubeThumbnail(short.EmbedLink) || POSTER_FALLBACK;
     return `
       <div class="card">
-        <div class="short-card__embed">
-          <iframe src="${short.EmbedLink}" title="${short.Title}" allowfullscreen loading="lazy"></iframe>
-          <button class="short-card__expand" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Expand ${short.Title}">${EXPAND_ICON}</button>
-        </div>
+        <button class="short-card__embed" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Play ${short.Title}">
+          <img src="${poster}" alt="${short.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
+          <span class="play-badge">${PLAY_ICON}</span>
+        </button>
         <div class="short-card__body">
           <p class="short-card__title">"${short.Title}"</p>
           ${moreLink}
@@ -105,7 +106,7 @@ function renderFeaturedShorts() {
     `;
   }).join('');
 
-  strip.querySelectorAll('.short-card__expand').forEach(btn => {
+  strip.querySelectorAll('.short-card__embed').forEach(btn => {
     btn.addEventListener('click', () => openVideoLightbox(btn.dataset.embed, btn.dataset.title));
   });
 }
