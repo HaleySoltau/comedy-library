@@ -119,7 +119,7 @@ function openVideoLightbox(embedLink, title) {
   lightbox.innerHTML = `
     <div class="video-lightbox__inner">
       <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
-      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </div>
   `;
 

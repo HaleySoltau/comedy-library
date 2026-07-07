@@ -104,7 +104,7 @@ async function init() {
       shortsGrid.innerHTML = artistShorts.map(s => `
         <div class="card">
           <div class="short-card__embed">
-            <iframe src="${s.EmbedLink}" title="${s.Title}" allowfullscreen loading="lazy"></iframe>
+            <iframe src="${s.EmbedLink}" title="${s.Title}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <div class="short-card__body">
             <p class="short-card__title">"${s.Title}"</p>
