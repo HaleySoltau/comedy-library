@@ -9,24 +9,66 @@ let state = {
   shorts: [],   // [{ArtistID, Title, EmbedLink}]
 };
 
-/* ---------- Featured shorts (deterministic daily rotation) ---------- */
+/* ---------- Featured shorts (deterministic lineup rotation) ---------- */
 
-function dayOfYear(date) {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date - start;
-  return Math.floor(diff / 86400000);
+const ROTATION_DAYS = 3; // <-- the one number to change later when dropping to 1
+const ROTATION_START_DATE = new Date('2026-07-03'); // site launch date — fixed forever so periodNumber is stable
+
+// Deterministic seeded PRNG (mulberry32) so the "randomness" is 100% reproducible from the seed
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
 }
 
-// Seeded shuffle so "today's" picks are stable all day but change day to day
-function seededShuffle(array, seed) {
-  const result = [...array];
-  let s = seed;
-  for (let i = result.length - 1; i > 0; i--) {
-    s = (s * 9301 + 49297) % 233280;
-    const j = Math.floor((s / 233280) * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
+function seededShuffle(arr, seed) {
+  const rng = mulberry32(seed);
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  return result;
+  return a;
+}
+
+function getPeriodNumber(date, rotationDays, startDate) {
+  const msPerDay = 86400000;
+  const daysSince = Math.floor((date - startDate) / msPerDay);
+  return Math.floor(daysSince / rotationDays);
+}
+
+// shortsByArtist: { artistId: [ {title, embedLink, ...}, ... ] } -- shorts.json grouped by ArtistID
+function getLineup(shortsByArtist, periodNumber, slotCount = 4) {
+  const artistIds = Object.keys(shortsByArtist).filter(id => shortsByArtist[id].length > 0);
+  const shuffled = seededShuffle(artistIds, periodNumber);
+
+  const lineup = [];
+  const occurrenceCount = {}; // tracks how many times each artist has already filled a slot in this lineup
+
+  for (let slot = 0; slot < slotCount; slot++) {
+    if (shuffled.length === 0) break;
+    const artistId = shuffled[slot % shuffled.length];
+    const occurrence = occurrenceCount[artistId] || 0;
+    occurrenceCount[artistId] = occurrence + 1;
+
+    const clips = shortsByArtist[artistId];
+    const clipIndex = (periodNumber + occurrence) % clips.length;
+    lineup.push({ artistId, short: clips[clipIndex] });
+  }
+  return lineup;
+}
+
+function groupShortsByArtist(shorts) {
+  const grouped = {};
+  shorts.forEach(s => {
+    const id = String(s.ArtistID);
+    if (!grouped[id]) grouped[id] = [];
+    grouped[id].push(s);
+  });
+  return grouped;
 }
 
 function renderFeaturedShorts() {
@@ -34,29 +76,29 @@ function renderFeaturedShorts() {
   const note = document.getElementById('rotation-note');
 
   if (state.shorts.length === 0) {
-    strip.innerHTML = '<div class="empty-state">No clips yet — add rows to <code>data/shorts.json</code> (ArtistID, Title, EmbedLink) and 5 will rotate in here daily.</div>';
+    strip.innerHTML = '<div class="empty-state">No clips yet — add rows to <code>data/shorts.json</code> (ArtistID, Title, EmbedLink) and 4 will rotate in here.</div>';
     return;
   }
 
-  const today = new Date();
-  const seed = dayOfYear(today) + today.getFullYear() * 1000;
-  const shuffled = seededShuffle(state.shorts, seed);
-  const picks = shuffled.slice(0, Math.min(5, shuffled.length));
+  const shortsByArtist = groupShortsByArtist(state.shorts);
+  const periodNumber = getPeriodNumber(new Date(), ROTATION_DAYS, ROTATION_START_DATE);
+  const lineup = getLineup(shortsByArtist, periodNumber, 4);
 
-  note.textContent = `A rotating pick of short clips, refreshed daily · ${picks.length} of ${state.shorts.length}`;
+  const refreshText = ROTATION_DAYS === 1 ? 'refreshed daily' : `refreshed every ${ROTATION_DAYS} days`;
+  note.textContent = `A rotating pick of short clips, ${refreshText} · ${lineup.length} of ${state.shorts.length}`;
 
-  strip.innerHTML = picks.map(s => {
-    const artist = state.artists.find(a => String(a.ArtistID) === String(s.ArtistID));
+  strip.innerHTML = lineup.map(({ artistId, short }) => {
+    const artist = state.artists.find(a => String(a.ArtistID) === String(artistId));
     const moreLink = artist
       ? `<a class="short-card__more" href="artist.html?id=${artist.ArtistID}">More from ${artist.Name} →</a>`
       : '';
     return `
       <div class="card">
         <div class="short-card__embed">
-          <iframe src="${s.EmbedLink}" title="${s.Title}" allowfullscreen loading="lazy"></iframe>
+          <iframe src="${short.EmbedLink}" title="${short.Title}" allowfullscreen loading="lazy"></iframe>
         </div>
         <div class="short-card__body">
-          <p class="short-card__title">"${s.Title}"</p>
+          <p class="short-card__title">"${short.Title}"</p>
           ${moreLink}
         </div>
       </div>
