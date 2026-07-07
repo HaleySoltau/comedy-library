@@ -1,4 +1,7 @@
 ﻿[
+  { "SpecialID": 100, "Tag": "dark" },
+  { "SpecialID": 101, "Tag": "dark" },
+  { "SpecialID": 102, "Tag": "dark" },
   { "SpecialID": 107, "Tag": "drybar" },
   { "SpecialID": 108, "Tag": "drybar" },
   { "SpecialID": 153, "Tag": "drybar" },

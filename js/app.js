@@ -84,8 +84,7 @@ function renderFeaturedShorts() {
   const periodNumber = getPeriodNumber(new Date(), ROTATION_DAYS, ROTATION_START_DATE);
   const lineup = getLineup(shortsByArtist, periodNumber, 4);
 
-  const refreshText = ROTATION_DAYS === 1 ? 'refreshed daily' : `refreshed every ${ROTATION_DAYS} days`;
-  note.textContent = `A rotating pick of short clips, ${refreshText} · ${lineup.length} of ${state.shorts.length}`;
+  note.textContent = 'A rotating pick of short clips';
 
   strip.innerHTML = lineup.map(({ artistId, short }) => {
     const artist = state.artists.find(a => String(a.ArtistID) === String(artistId));
