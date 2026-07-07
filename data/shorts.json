@@ -1,1 +1,7 @@
-[]
+[
+  { "ArtistID": 33, "Title": "These are just jokes", "EmbedLink": "https://www.instagram.com/reel/DYDGesSiI1P/embed" },
+  { "ArtistID": 38, "Title": "The three little pigs", "EmbedLink": "https://www.youtube.com/embed/OxoUUbMii7Q?start=3" },
+  { "ArtistID": 33, "Title": "Best thing that ever happened to me", "EmbedLink": "https://www.youtube.com/embed/WC20hnlzypc" },
+  { "ArtistID": 47, "Title": "Autocorrect Gone Horribly Wrong", "EmbedLink": "https://www.youtube.com/embed/J5eoSQLIQvI" },
+  { "ArtistID": 15, "Title": "The Festival", "EmbedLink": "https://www.youtube.com/embed/ccVHbN-ndK0" }
+]
