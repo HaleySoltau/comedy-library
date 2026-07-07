@@ -56,3 +56,57 @@ This file isn't read by the site — it's just a running checklist for us.
 
 - [ ] **Faces and Sounds** (Pete Holmes) — SpecialID 292 — https://www.youtube.com/watch?v=RNCZrC9mcKY
   Plainly titled (no clickbait pattern) and possibly tied to Comedy Dynamics, but embedding is disabled so the uploading channel couldn't be independently confirmed.
+
+## Batch 14 (SpecialIDs 322–342)
+
+- [ ] **Finding the Funny** (Tammy Pescatelli) — SpecialID 339 — https://www.youtube.com/watch?v=91w0STmSX9s
+  Comedy Dynamics' own press materials say this was distributed "through the Comedy Dynamics network including YouTube," but the uploading channel for this specific video couldn't be confirmed.
+- [ ] **The Way After School Special** (Tammy Pescatelli) — SpecialID 340 — https://www.youtube.com/watch?v=ZmzivBUaKpY
+  Same situation as above.
+
+## Batch 15 (SpecialIDs 343–360)
+
+⚠️ **Recurring channel worth a dedicated look: "Punchline" (@Punchline).** This channel has now turned up as the source for multiple "uncertain" links across different artists/distributors (Anjelah Johnson-Reyes in Batch 2, and now 3 Tom Papa specials here). It's consistently well-produced/plainly-titled (not clickbait or livestream-loop piracy patterns), which suggests it could be a legitimate secondary distribution channel — but that's also exactly what a large-scale unauthorized reposting operation might look like if it were trying to avoid detection. Worth independently checking whether "Punchline" is a known/licensed comedy distributor before trusting further links from it.
+
+- [ ] **Live in New York City** (Tom Papa) — SpecialID 355 — https://www.youtube.com/watch?v=1q3yyscVZOk — Punchline channel
+- [ ] **Freaked Out** (Tom Papa) — SpecialID 356 — https://www.youtube.com/watch?v=03vtq7bS2mI — Punchline channel
+- [ ] **Human Mule** (Tom Papa) — SpecialID 357 — https://www.youtube.com/watch?v=YYMqQoF2Z7g — Punchline channel
+
+## Batch 16 (SpecialIDs 361–378)
+
+- [ ] **I'll See Myself Out** (Tommy Little) — SpecialID 368 — https://www.youtube.com/watch?v=DEA4SIS3T6c
+  On the verified official "Prime Video AU & NZ" channel — legitimate distributor, high confidence on licensing — but couldn't confirm whether this specific video is the full ~60-min special or an extended promo clip. Worth a quick duration check.
+
+**New special discovered, not yet in our database at all:** Trevor Noah released **"The Lost SA Special"** (recorded in South Africa, released ~January 2026) on his own official YouTube channel (@trevornoah). This isn't one of the titles we were checking — it's a completely new entry that should probably be added to `specials.json`/`special_lookup.json` separately (with its own bio/data-entry pass), not just a missing-link fix.
+
+## Batch 17 (SpecialIDs 379–398)
+
+- [ ] **Prison for Wizards** (Shaye Smith) — SpecialID 392 — https://www.youtube.com/watch?v=XWbf1L-W1k8
+  Content is clearly the legitimate Dry Bar special, but uploaded by a channel called "Dry Bar Clips" rather than the main verified "Dry Bar Comedy" channel — couldn't confirm this specific channel is officially Dry Bar-run.
+
+## Batch 18 (SpecialIDs 402–431)
+
+- [ ] **The Times They Are a John Hastings** (John Hastings) — SpecialID 421 — https://www.youtube.com/watch?v=njvcS7PNxNc
+  Strong contextual evidence this is his own self-released channel (he regularly posts full specials there), but the page couldn't be directly rendered to confirm the uploader field.
+
+## Batch 19 — final sweep (SpecialIDs 432–493)
+
+⚠️ **Note:** Several candidates this round turned out to be video IDs already assigned to *other* specials in our database (research agent mismatched them by channel + rough theme, not exact title). I caught these via cross-check and did NOT add them — flagging here so nobody re-adds them later by mistake:
+- "I Can Get Whiter" (Mike P Burton) — candidate was actually "The Whitest Guy In New York" (already SpecialID 446)
+- "Remove Before Flight" (Moody Molavi) — candidate was actually "Messing With People" (already SpecialID 448)
+- "More True" (Leland Klassen) — candidate was actually "Border Patrol Agents Are Insane" (already SpecialID 452)
+- "My Name Is Cleto" (Cleto Rodriguez) — candidate was actually "You Will Immediately Regret Working Out" (already SpecialID 474)
+- "Women and Children First" (Rex Havens) — candidate was actually "Your Wife Is More Complicated Than You" (already SpecialID 492 — the one you originally gave me the link for)
+- "We Say Bim" (Steve Soelberg) — skipped entirely, not even logging as uncertain; the "match" had zero title/content correlation, just "a video that exists on his channel."
+
+Genuinely uncertain-but-plausible additions from this batch:
+- [ ] **Love Me at My Worst** (Nick Guerra) — SpecialID 443 — https://www.youtube.com/watch?v=_AUsgvjhaTM
+  On the legitimate 800 Pound Gorilla Media channel, but might be a ~20-min excerpt rather than the complete special.
+- [ ] **Go Dawgs!** (Karen Morgan) — SpecialID 455 — https://www.youtube.com/watch?v=cb5Blpsx58M
+  Video titled "After 50 You Just Stop Caring," not "Go Dawgs!" — matched only by upload timing on the confirmed Dry Bar Comedy channel, not by title.
+- [ ] **It's a Miracle Gen X Children Survived** (Karen Morgan) — SpecialID 457 — https://www.youtube.com/watch?v=P16BGwCdSA4
+  Video titled "If Gen Z Takes Over the World, Gen X Will Win It Back" — thematically close but not an exact title match.
+- [ ] **One of Ten** (Fred Klett) — SpecialID 465 — https://www.youtube.com/watch?v=1OJPu27Bve0
+  Video titled "Child Discipline Isn't What It Used To Be" — plausible given the "one of ten kids" theme, but not an exact title match.
+- [ ] **Bible School Dropout** (Dennis Gaxiola) — SpecialID 483 — https://www.youtube.com/watch?v=ITIsXEp8JI8
+  Video titled "Watching A Hallmark Movie Can Be Dangerous" — content (near-death experience, Bible-school material) matches the special's known bits, but not an exact title match.
