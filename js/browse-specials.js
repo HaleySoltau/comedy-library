@@ -85,7 +85,9 @@ function renderSpecialGrid() {
 
   grid.innerHTML = visible.map(s => {
     const artists = artistsForSpecial(state.artists, state.specialLookup, s.SpecialID);
-    const artistNames = artists.length ? artists.map(a => a.Name).join(', ') : 'Unknown artist';
+    const artistNames = artists.length
+      ? artists.map(a => `<a class="special-card__artist-link" href="artist.html?id=${a.ArtistID}">${a.Name}</a>`).join(', ')
+      : 'Unknown artist';
     const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
     const hasVideo = Boolean(s.YouTubeLink);
 
