@@ -86,28 +86,35 @@ function renderSpecialGrid() {
   grid.innerHTML = visible.map(s => {
     const artists = artistsForSpecial(state.artists, state.specialLookup, s.SpecialID);
     const artistNames = artists.length ? artists.map(a => a.Name).join(', ') : 'Unknown artist';
-    const wrapperTag = artists[0] ? 'a' : 'div';
-    const hrefAttr = artists[0] ? `href="artist.html?id=${artists[0].ArtistID}"` : '';
     const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
     const hasVideo = Boolean(s.YouTubeLink);
 
+    const posterImg = `<img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">`;
+    const posterBlock = hasVideo
+      ? `<a class="special-card__poster-link" href="${s.YouTubeLink}" target="_blank" rel="noopener" aria-label="Watch ${s.Title}">
+           <div class="special-card__poster">${posterImg}<span class="play-badge">${PLAY_ICON}</span></div>
+         </a>`
+      : `<div class="special-card__poster">${posterImg}</div>`;
+
+    const title = `<p class="special-card__title">${s.Title}</p>`;
+    const titleBlock = artists[0]
+      ? `<a class="special-card__title-link" href="artist.html?id=${artists[0].ArtistID}">${title}</a>`
+      : title;
+
     return `
-      <${wrapperTag} class="card special-card${hasVideo ? ' has-video' : ''}" ${hrefAttr}>
-        <div class="special-card__poster">
-          <img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
-          ${hasVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
-        </div>
+      <div class="card special-card${hasVideo ? ' has-video' : ''}">
+        ${posterBlock}
         <div class="card__perf"></div>
         <div class="special-card__body">
-          <p class="special-card__title">${s.Title}</p>
+          ${titleBlock}
           <p class="special-card__meta">${artistNames}${s.AiredYear ? ` · ${s.AiredYear}` : ''}</p>
           <div class="special-card__badges">
-            ${hasVideo ? `<span class="watch-pill">${PLAY_ICON}WATCH</span>` : ''}
+            ${hasVideo ? `<a class="watch-pill" href="${s.YouTubeLink}" target="_blank" rel="noopener">${PLAY_ICON}WATCH</a>` : ''}
             <span class="badge">${s.LanguageLevel || '?'}</span>
             <span class="badge">${s.ContentLevel || '?'}</span>
           </div>
         </div>
-      </${wrapperTag}>
+      </div>
     `;
   }).join('');
 }

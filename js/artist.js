@@ -65,19 +65,20 @@ async function init() {
       specialsList.innerHTML = artistSpecials.map(s => {
         const hasVideo = Boolean(s.YouTubeLink);
         const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
+        const posterImg = `<img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">`;
+        const posterBlock = hasVideo
+          ? `<a class="special-row__poster" href="${s.YouTubeLink}" target="_blank" rel="noopener" aria-label="Watch ${s.Title}">${posterImg}<span class="play-badge">${PLAY_ICON}</span></a>`
+          : `<div class="special-row__poster">${posterImg}</div>`;
         return `
           <div class="special-row${hasVideo ? ' has-video' : ''}">
-            <div class="special-row__poster">
-              <img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
-              ${hasVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
-            </div>
+            ${posterBlock}
             <div class="special-row__info">
               <p class="special-row__title">
                 ${hasVideo ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
                 ${s.AiredYear ? `<span class="special-row__year"> · Aired ${s.AiredYear}</span>` : ''}
               </p>
               <div class="special-row__badges">
-                ${hasVideo ? `<span class="watch-pill">${PLAY_ICON}WATCH</span>` : ''}
+                ${hasVideo ? `<a class="watch-pill" href="${s.YouTubeLink}" target="_blank" rel="noopener">${PLAY_ICON}WATCH</a>` : ''}
                 <span class="badge">${s.LanguageLevel || '?'}</span>
                 <span class="badge">${s.ContentLevel || '?'}</span>
               </div>

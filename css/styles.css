@@ -529,6 +529,21 @@ img { max-width: 100%; display: block; }
   align-items: stretch;
 }
 
+.special-card__poster-link {
+  display: block;
+  text-decoration: none;
+}
+
+.special-card__title-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.special-card__title-link:hover .special-card__title {
+  color: var(--accent);
+}
+
 .special-card__poster {
   aspect-ratio: 16 / 9;
   background: var(--surface-raised);
@@ -592,6 +607,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--bg);
   background: var(--accent);
   padding: 0.25rem 0.55rem;
@@ -769,6 +785,7 @@ img { max-width: 100%; display: block; }
 }
 
 .special-row__poster {
+  display: block;
   position: relative;
   width: 104px;
   height: 58px;
@@ -776,6 +793,7 @@ img { max-width: 100%; display: block; }
   border-radius: 6px;
   overflow: hidden;
   background: var(--surface-raised);
+  text-decoration: none;
 }
 
 .special-row__poster img {
