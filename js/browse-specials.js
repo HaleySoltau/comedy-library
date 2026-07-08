@@ -76,6 +76,14 @@ function renderSpecialGrid() {
     visible = visible.filter(s => specialHasArtistTag(s.SpecialID, state.artistStyleTag, state.specialLookup, state.tags));
   }
 
+  visible = visible.slice().sort((a, b) => {
+    const nameA = artistsForSpecial(state.artists, state.specialLookup, a.SpecialID)[0]?.Name || '';
+    const nameB = artistsForSpecial(state.artists, state.specialLookup, b.SpecialID)[0]?.Name || '';
+    const nameCompare = nameA.localeCompare(nameB);
+    if (nameCompare !== 0) return nameCompare;
+    return (a.AiredYear || 0) - (b.AiredYear || 0);
+  });
+
   countLabel.textContent = `${visible.length} of ${state.specials.length} specials`;
 
   if (visible.length === 0) {
