@@ -4,7 +4,7 @@
     "Title": "What the Hell Happened to Me?",
     "AiredYear": 1996,
     "YouTubeLink": "https://www.youtube.com/watch?v=eIGUJOqigt8",
-	"ThumbnailURL": "https://m.media-amazon.com/images/M/MV5BOWVmMzExMzYtM2JlNC00NGRjLTlkOGUtZGU1M2FkZGE2NTkwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQubkWd5g1ptZg9uJl6STmH_aEN7GaAvgcsQFn6kJpGpw&s=10",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -13,8 +13,9 @@
     "SpecialID": 2,
     "Title": "100% Fresh",
     "AiredYear": 2018,
-    "YouTubeLink": "Netflix",
-    "Platform": "",
+    "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyNuvoFJEDT7hz_n9qXFjNTY4_fdUe0AduUeNCgiu0cA&s=10",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -22,8 +23,9 @@
     "SpecialID": 3,
     "Title": "Love You",
     "AiredYear": 2024,
-    "YouTubeLink": "Netflix",
-    "Platform": "",
+    "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtwYi80efZ3FFuzlEl39mP9KAQrhK_O7-YZ6HUHW2Dg&s=10",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -32,6 +34,7 @@
     "Title": "Bring Back Apu",
     "AiredYear": 2022,
     "YouTubeLink": "https://www.youtube.com/watch?v=fk3svL0GPWI&t=2s",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -41,6 +44,7 @@
     "Title": "Back to Back: The Crowd Work Special",
     "AiredYear": 2022,
     "YouTubeLink": "https://www.youtube.com/watch?v=ePpIH_u6bHE",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -50,6 +54,7 @@
     "Title": "Gaslit",
     "AiredYear": 2024,
     "YouTubeLink": "https://www.youtube.com/watch?v=p_HqJyq2SYU",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -59,6 +64,7 @@
     "Title": "4:4:1",
     "AiredYear": 2017,
     "YouTubeLink": "https://www.youtube.com/watch?v=hYvObiM09E4",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -68,6 +74,7 @@
     "Title": "From Florida With Love",
     "AiredYear": 2024,
     "YouTubeLink": "https://www.youtube.com/watch?v=CvfX4Bz34C4&t=19s",
+	"ThumbnailURL": "",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -77,6 +84,7 @@
     "Title": "The Crowd Work Special",
     "AiredYear": 2019,
     "YouTubeLink": "https://www.youtube.com/watch?v=nS_6c4PyJvg",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -86,6 +94,7 @@
     "Title": "Upgraded",
     "AiredYear": 2025,
     "YouTubeLink": "https://www.youtube.com/watch?v=Yu0VMEjy5lo",
+	"ThumbnailURL": "",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -95,6 +104,7 @@
     "Title": "Infamous",
     "AiredYear": 2022,
     "YouTubeLink": "https://www.youtube.com/watch?v=rCZkp023MdY",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -104,6 +114,7 @@
     "Title": "Life",
     "AiredYear": 2025,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNpOU3PxUaT5m98v86Xi4VgRo_imGGGBlhb3-2wRPzQ&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -113,6 +124,7 @@
     "Title": "Thinking Out Loud",
     "AiredYear": 2004,
     "YouTubeLink": "https://www.youtube.com/watch?v=bswVoqMuA3Q",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -122,16 +134,8 @@
     "Title": "Purse-onality",
     "AiredYear": 2005,
     "YouTubeLink": "https://www.youtube.com/watch?v=CHWwIaBRABU",
+	"ThumbnailURL": "",
     "Platform": "",
-    "LanguageLevel": "Clean",
-    "ContentLevel": "FamilyFriendly"
-  },
-  {
-    "SpecialID": 15,
-    "Title": "Keeping It Real",
-    "AiredYear": "",
-    "YouTubeLink": "",
-    "Platform": "DVD",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
   },
@@ -140,6 +144,7 @@
     "Title": "Total Momsense",
     "AiredYear": 2007,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQocZ_qxJGVY9WBMcuYIncGONwtqJfZUIyseFVqk5bh8g&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -149,6 +154,7 @@
     "Title": "It's Probably Just My Thyroid",
     "AiredYear": 2008,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vqKR_Kvne_8c48AEVKeUnSRGF_Rd14YtKM8Qlz6NFg&s",
     "Platform": "DVD",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -158,6 +164,7 @@
     "Title": "Two Thumbs Up: The Best of Anita Renfroe (so far)",
     "AiredYear": 2009,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://i.swncdn.com/media/400w/godtube/2015/09/01/502962--ca2a8d81-a1eb-47e1-9917-f485576baf21-poster.jpg",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -167,6 +174,7 @@
     "Title": "Big Ol' Sweet Iced Tea",
     "AiredYear": 2010,
     "YouTubeLink": "https://www.youtube.com/watch?v=ZHp6C0MapYw",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -176,6 +184,7 @@
     "Title": "I'm Not High Maintenance, Just Low Tolerance",
     "AiredYear": 2012,
     "YouTubeLink": "https://www.youtube.com/watch?v=jMxM2_ZxCW8",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -185,6 +194,7 @@
     "Title": "And I Mean That in the Best Possible Way",
     "AiredYear": 2014,
     "YouTubeLink": "https://www.youtube.com/watch?v=mpTJoo7GlHk",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -194,6 +204,7 @@
     "Title": "That's How We Do It",
     "AiredYear": 2009,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIi_TyIIfkOB0cA1qGuwJcxZ8Npb-xUsa1urimIv_7Q&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -203,6 +214,7 @@
     "Title": "The Homecoming Show",
     "AiredYear": 2013,
     "YouTubeLink": "https://www.youtube.com/watch?v=DBKcgpgJOAo",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -212,6 +224,7 @@
     "Title": "Not Fancy",
     "AiredYear": 2015,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-rp9pz7mpHQo5cL6VCb4x1A_nZVozL9dGLdaEVZUF9A&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -221,6 +234,7 @@
     "Title": "Mahalo & Goodnight",
     "AiredYear": 2017,
     "YouTubeLink": "https://www.youtube.com/watch?v=t2UzxfXf8P8",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -230,6 +244,7 @@
     "Title": "Say I Won't",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=78LHf7YP2c0",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -239,6 +254,7 @@
     "Title": "Technically Not Stalking",
     "AiredYear": 2024,
     "YouTubeLink": "https://www.youtube.com/watch?v=oQtFFwfvbMM",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -248,6 +264,7 @@
     "Title": "Ugly Baby",
     "AiredYear": 2026,
     "YouTubeLink": "https://www.youtube.com/watch?v=3bvkoxZ6xcw",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -257,6 +274,7 @@
     "Title": "Comfortably Dumb",
     "AiredYear": 2009,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdpHWAxJ0j8HIySCPyhPOiKuzAp9ZOkKkpitXLzcfhg&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -266,6 +284,7 @@
     "Title": "The Machine",
     "AiredYear": 2016,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcrxOZJER__R_l2_iMaa6IUBkK-keL14Hmk-tQXbMdA&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -275,6 +294,7 @@
     "Title": "Secret Time",
     "AiredYear": 2018,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01u-c-zgSWK_IeFRw6xJpRRvE9_REpqCaNCBqtzex5g&s",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -284,6 +304,7 @@
     "Title": "Hey Big Boy",
     "AiredYear": 2020,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWbcOABjUmivMaG-J4HoX-OrHYO7Yw7eI09lC81iStgg&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -293,6 +314,7 @@
     "Title": "Razzle Dazzle",
     "AiredYear": 2023,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsexx91h6S52CDmFSRzZzVoLjq-ZhDgE9V0b_59yAoyA&s=10,
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -301,8 +323,9 @@
     "SpecialID": 34,
     "Title": "Lucky",
     "AiredYear": 2025,
-    "YouTubeLink": "Netflix",
-    "Platform": "",
+    "YouTubeLink": "",
+	"ThumbnailURL": "https://www.sitcomsonline.com/photos/bertkreischer-lucky.jpg",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -311,6 +334,7 @@
     "Title": "Bill Cosby: Himself",
     "AiredYear": 1983,
     "YouTubeLink": "https://www.youtube.com/watch?v=ymUYO4T_ZjQ",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -320,6 +344,7 @@
     "Title": "Far from Finished",
     "AiredYear": 2014,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr9sFn1mQuozQK6ndmJqTVkgJSm9WD0Wz9GvLwU1DtJQ&s=10",
     "Platform": "AppleTV",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -329,6 +354,7 @@
     "Title": "Here's Your Sign",
     "AiredYear": 1996,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://i.ytimg.com/vi/VMlJ5MClQJ0/maxresdefault.jpg",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -338,6 +364,7 @@
     "Title": "15° Off Cool",
     "AiredYear": 2007,
     "YouTubeLink": "https://www.youtube.com/watch?v=BSjokrJxpX0",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -347,6 +374,7 @@
     "Title": "Aged & Confused",
     "AiredYear": 2009,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSErkKHp3RAa3qJyAMj4C3augNZM8EBOp8AZJ-WFLZB7g&s=10",
     "Platform": "AppleTV",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -356,6 +384,7 @@
     "Title": "Just Sell Him for Parts",
     "AiredYear": 2016,
     "YouTubeLink": "https://www.youtube.com/watch?v=UhWFwsziLeI",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -365,6 +394,7 @@
     "Title": "Here's Your Sign, It's Finally Time: My Last Show",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=KWCc5Wix5LM",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -374,6 +404,7 @@
     "Title": "Totally Committed",
     "AiredYear": 1998,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDrQc_B84I8dmVTPeRZIy9L9Jce4cnDFNUj7fVwbPYw&s=10",
     "Platform": "DVD",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -383,6 +414,7 @@
     "Title": "Jeff Foxworthy & Larry the Cable Guy: We've Been Thinking...",
     "AiredYear": 2016,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBRO0SqpTxQ7rz4q0ciRiDX627I1AseLlHKRCW7c63w&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -392,7 +424,8 @@
     "Title": "The Good Old Days",
     "AiredYear": 2022,
     "YouTubeLink": "",
-    "Platform": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XQgKzebBhI0AjR6g_-pCXsuqFfUzEknt9BPxmfIgUw&s=10",
+    "Platform": "DVD",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -401,6 +434,7 @@
     "Title": "The Joke's On Me",
     "AiredYear": 2026,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtsqYP3RIVBpusz2zjtylYI-e1MTWMkD4gUKhl8gkECg&s=10",
     "Platform": "Prime",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -410,6 +444,7 @@
     "Title": "That Ain't Right",
     "AiredYear": 2007,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRiYNFuCMi7a4NMBJ4HqnhvX36DfpouYZsxZcJfyChyg&s=10",
     "Platform": "HBO",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -419,6 +454,7 @@
     "Title": "That's What I'm Talkin' About",
     "AiredYear": 2013,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhsAVBsniUAAtUQExSl6tr0-kE5tqo21USd_UPJOjd_A&s=10",
     "Platform": "AppleTV",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -428,6 +464,7 @@
     "Title": "Zero to Sixty",
     "AiredYear": 2017,
     "YouTubeLink": "https://www.youtube.com/watch?v=K1nRDbVsFGA",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -437,6 +474,7 @@
     "Title": "Put a Helmet On!",
     "AiredYear": 2003,
     "YouTubeLink": "https://www.youtube.com/watch?v=yki-gNzy0tE",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -446,6 +484,7 @@
     "Title": "Conservative Unleashed",
     "AiredYear": 2004,
     "YouTubeLink": "https://www.youtube.com/watch?v=B1ufSDjjKY8",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -455,6 +494,7 @@
     "Title": "Tolerate This!",
     "AiredYear": 2005,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2j-d0MKbulht4sLhG992HLM8KsFWgEY3nfsNvkPY8eg&s",
     "Platform": "Prime",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -464,6 +504,7 @@
     "Title": "Wussification",
     "AiredYear": 2007,
     "YouTubeLink": "https://www.youtube.com/watch?v=9h153xq20yM",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -473,6 +514,7 @@
     "Title": "Dwayne Explains",
     "AiredYear": 2021,
     "YouTubeLink": "https://www.youtube.com/watch?v=TUXyJFeZW6U",
+	"ThumbnailURL": "",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -482,6 +524,7 @@
     "Title": "God's Comic",
     "AiredYear": 2012,
     "YouTubeLink": "https://www.youtube.com/watch?v=fEB2eqHNII0",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -491,6 +534,7 @@
     "Title": "Unapologetical",
     "AiredYear": 2020,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-nZskZVKL620RhhBNp5U3Hf5H4Zjg3jadteF1Owj5QA&s=10",
     "Platform": "Vimeo",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -500,6 +544,7 @@
     "Title": "Laugh While It's Legal",
     "AiredYear": 2025,
     "YouTubeLink": "https://www.youtube.com/watch?v=GZSvyWUoolk",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -509,6 +554,7 @@
     "Title": "Fun Size",
     "AiredYear": 2015,
     "YouTubeLink": "https://www.youtube.com/watch?v=01mCrHXGAg4",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -518,6 +564,7 @@
     "Title": "Daddy Issues",
     "AiredYear": 2016,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwqA4dJO2aXjZuz6KMf4xamsWdE2K0DQS8tCtFnhTGpQ&s=10",
     "Platform": "Prime",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -527,6 +574,7 @@
     "Title": "Starfish",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=EWge7dihrRY",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -536,6 +584,7 @@
     "Title": "Live On Short Street",
     "AiredYear": 2026,
     "YouTubeLink": "https://www.youtube.com/watch?v=IXDA3HHcq5E",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -545,6 +594,7 @@
     "Title": "Probably",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=0WcfA_F7a7A",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -554,6 +604,7 @@
     "Title": "Obviously",
     "AiredYear": 2024,
     "YouTubeLink": "https://www.youtube.com/watch?v=xpocNUU8Jtw",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -563,6 +614,7 @@
     "Title": "Who's Talking?!",
     "AiredYear": 2025,
     "YouTubeLink": "https://www.youtube.com/watch?v=PlKRu8eljLg",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -572,6 +624,7 @@
     "Title": "As Is",
     "AiredYear": 2012,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LczJ_BFbqxtQpErTWc9me68ibSwVpnfeepoxsTzZgQ&s=10",
     "Platform": "Prime",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -581,6 +634,7 @@
     "Title": "Dad Chaniels",
     "AiredYear": 2019,
     "YouTubeLink": "https://www.youtube.com/watch?v=L629k4U-9P4",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -590,6 +644,7 @@
     "Title": "Twelfth Night",
     "AiredYear": 2021,
     "YouTubeLink": "https://www.youtube.com/watch?v=v0wAvB8sV_c",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -599,6 +654,7 @@
     "Title": "Mixed Reviews",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=n1kVr3zkz7E",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -608,6 +664,7 @@
     "Title": "Empty Nester",
     "AiredYear": 2024,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkqplTEyxUZQwAVnVE3Lxff-cXczJm0SeL-65F---dhA&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -617,6 +674,7 @@
     "Title": "Having a Girls' Night Out!",
     "AiredYear": 1998,
     "YouTubeLink": "https://www.youtube.com/watch?v=u_ALE7PejcE",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -626,6 +684,7 @@
     "Title": "Live! From the Second Row, Piano Side",
     "AiredYear": 1998,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR62wZeLjfRjGdjBR1JDKZ7jnwjRNSIbRtkgnM4diVKag&s=10",
     "Platform": "DVD",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -635,6 +694,7 @@
     "Title": "On Her Soapbox",
     "AiredYear": 1999,
     "YouTubeLink": "https://www.youtube.com/watch?v=NVNVl5idVnw",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -644,6 +704,7 @@
     "Title": "Be Afraid... Be Very Afraid",
     "AiredYear": 2002,
     "YouTubeLink": "https://www.youtube.com/watch?v=gk4YaTzqAm0",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -653,6 +714,7 @@
     "Title": "Have I Got a Story for You",
     "AiredYear": 2003,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3ifV8AbbQR2vupmPDT8-UVDaLb51gn2rronES3qOgw&s=10",
     "Platform": "Roku",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -662,6 +724,7 @@
     "Title": "Four-Eyed Blonde",
     "AiredYear": 2004,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFHWZp-L8NYyo_y4lVjdJpEWD6Nzy-f0-q_xderM5xg&s=10",
     "Platform": "DVD",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -671,6 +734,7 @@
     "Title": "A Piece of My Mind",
     "AiredYear": 2006,
     "YouTubeLink": "https://www.youtube.com/watch?v=4mKLrCVad6A",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -680,6 +744,7 @@
     "Title": "Pyrate Hymns",
     "AiredYear": "",
     "YouTubeLink": "https://www.youtube.com/watch?v=c8cmNwMFNEc",
+	"ThumbnailURL": "",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -689,6 +754,7 @@
     "Title": "Stayin' Alive... Laughing!",
     "AiredYear": 2007,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtcVVei5GXMjfUf69RWffIflDKRzPyqvB0up-eBkQFA&s=10",
     "Platform": "DVD",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -698,6 +764,7 @@
     "Title": "This Ain't Prettyville",
     "AiredYear": 2009,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStIy4-kCxb1FXCUbQTyBGD3naY5ouFeCPsVWBnVXS8Tw&s",
     "Platform": "Roku",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -707,6 +774,7 @@
     "Title": "Did I Say That Out Loud?",
     "AiredYear": 2010,
     "YouTubeLink": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoyZ4yrxP0NSapXKquJIA0peYTy0Q8UjVuN1RRLadbVg&s",
     "Platform": "Roku",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -725,6 +793,7 @@
     "Title": "Girl Talk",
     "AiredYear": 2013,
     "YouTubeLink": "https://www.youtube.com/watch?v=QiFDwjZem6U",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -734,6 +803,7 @@
     "Title": "Stand Up for Families",
     "AiredYear": 2016,
     "YouTubeLink": "https://www.youtube.com/watch?v=vxDLZfD76RI",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -743,6 +813,7 @@
     "Title": "White Male. Black Comic.",
     "AiredYear": 2013,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Prime",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -752,6 +823,7 @@
     "Title": "Incorrigible",
     "AiredYear": 2015,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -761,6 +833,7 @@
     "Title": "Man on Fire",
     "AiredYear": 2017,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -770,6 +843,7 @@
     "Title": "No Pain",
     "AiredYear": 2020,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -779,6 +853,7 @@
     "Title": "Grow or Die",
     "AiredYear": 2023,
     "YouTubeLink": "https://www.youtube.com/watch?v=TSi5zOfEaQE",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -788,6 +863,7 @@
     "Title": "Mother Inferior",
     "AiredYear": 2017,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -797,6 +873,7 @@
     "Title": "Mom Genes",
     "AiredYear": 2022,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -806,6 +883,7 @@
     "Title": "Norman Rockwell is Bleeding",
     "AiredYear": 2004,
     "YouTubeLink": "https://www.youtube.com/watch?v=v0tuigSrZsU",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -815,6 +893,7 @@
     "Title": "The 5th Annual End of the World Tour",
     "AiredYear": 2007,
     "YouTubeLink": "https://www.youtube.com/watch?v=gD334CBFoqU",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -824,6 +903,7 @@
     "Title": "Love is Evol",
     "AiredYear": 2009,
     "YouTubeLink": "https://www.youtube.com/watch?v=xHyBMmhvsqo",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -833,6 +913,7 @@
     "Title": "Neverlution",
     "AiredYear": 2011,
     "YouTubeLink": "https://www.youtube.com/watch?v=JnsEyrus6jE",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -842,6 +923,7 @@
     "Title": "Voice in My Head",
     "AiredYear": 2013,
     "YouTubeLink": "https://www.youtube.com/watch?v=EkYV2oQ2dUs",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -851,6 +933,7 @@
     "Title": "Angry Pursuit of Happiness",
     "AiredYear": 2015,
     "YouTubeLink": "https://www.youtube.com/watch?v=4GuPQm5d62o",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -860,6 +943,7 @@
     "Title": "Born With a Defect",
     "AiredYear": 2016,
     "YouTubeLink": "https://www.youtube.com/watch?v=HhQb3BX4Rik",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -869,6 +953,7 @@
     "Title": "Amerigeddon",
     "AiredYear": 2018,
     "YouTubeLink": "https://www.youtube.com/watch?v=J83gVedhv-o",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -878,6 +963,7 @@
     "Title": "Zero Side Effects",
     "AiredYear": 2022,
     "YouTubeLink": "https://www.youtube.com/watch?v=6bqD2_OZ2iM",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -887,6 +973,7 @@
     "Title": "Carrying Monsters",
     "AiredYear": 2024,
     "YouTubeLink": "https://www.youtube.com/watch?v=xqhhYbhbOIw",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -896,6 +983,7 @@
     "Title": "Daniel Sloss Live",
     "AiredYear": 2012,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
@@ -905,6 +993,7 @@
     "Title": "DARK",
     "AiredYear": 2018,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
@@ -914,6 +1003,7 @@
     "Title": "Jigsaw",
     "AiredYear": 2018,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
@@ -923,6 +1013,7 @@
     "Title": "X",
     "AiredYear": 2019,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -932,6 +1023,7 @@
     "Title": "SOCIO",
     "AiredYear": 2022,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -941,6 +1033,7 @@
     "Title": "HUBRIS",
     "AiredYear": 2024,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -950,6 +1043,7 @@
     "Title": "CAN'T",
     "AiredYear": 2025,
     "YouTubeLink": "",
+	"ThumbnailURL": "",
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -959,6 +1053,7 @@
     "Title": "Organic and Inorganic Life",
     "AiredYear": 2019,
     "YouTubeLink": "https://www.youtube.com/watch?v=1HY_QVKIDZg",
+	"ThumbnailURL": "",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
