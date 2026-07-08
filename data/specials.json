@@ -3045,7 +3045,7 @@
     "SpecialID": 347,
     "Title": "Full Range of Motion",
     "AiredYear": 2007,
-    "YouTubeLink": "",
+    "YouTubeLink": "https://www.youtube.com/watch?v=s2w7rnczC1w&t=2s",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -3054,7 +3054,7 @@
     "SpecialID": 348,
     "Title": "I'm No Rockstar",
     "AiredYear": 2009,
-    "YouTubeLink": "",
+    "YouTubeLink": "https://www.youtube.com/watch?v=yD4eqizmioI",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -3063,7 +3063,7 @@
     "SpecialID": 349,
     "Title": "Insanitized",
     "AiredYear": 2010,
-    "YouTubeLink": "",
+    "YouTubeLink": "https://www.youtube.com/watch?v=EaBVKbo3aqA",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -3073,7 +3073,7 @@
     "Title": "Rockshow Comedy Tour",
     "AiredYear": 2011,
     "YouTubeLink": "",
-    "Platform": "",
+    "Platform": "Vimeo",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
   },
@@ -3082,7 +3082,7 @@
     "Title": "Push Pull Point Pow",
     "AiredYear": 2012,
     "YouTubeLink": "",
-    "Platform": "",
+    "Platform": "Vimeo",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
   },
@@ -3091,7 +3091,7 @@
     "Title": "Greatest Hits & Greatest Bits",
     "AiredYear": 2013,
     "YouTubeLink": "",
-    "Platform": "",
+    "Platform": "Vimeo",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
   },
@@ -3099,7 +3099,7 @@
     "SpecialID": 353,
     "Title": "That's the Worst",
     "AiredYear": 2015,
-    "YouTubeLink": "",
+    "YouTubeLink": "https://www.youtube.com/watch?v=FgzCjtZCP2Q",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -3108,7 +3108,7 @@
     "SpecialID": 354,
     "Title": "Just About Enough",
     "AiredYear": 2016,
-    "YouTubeLink": "",
+    "YouTubeLink": "https://www.youtube.com/watch?v=uQd-TK5f5Pk",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -4184,5 +4184,14 @@
     "Platform": "",
     "LanguageLevel": "",
     "ContentLevel": ""
+  }
+  {
+    "SpecialID": 493,
+    "Title": "Fist Bump",
+    "AiredYear": 2026,
+    "YouTubeLink": "",
+    "Platform": "AppleTV",
+    "LanguageLevel": "Clean",
+    "ContentLevel": "FamilyFriendly"
   }
 ]
