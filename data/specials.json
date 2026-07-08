@@ -985,7 +985,7 @@
     "AiredYear": 2012,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2ZV_botcghQwa8feAbj-l9ctXdTSPS0Dpvxei7nDWw&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
   },
@@ -995,7 +995,7 @@
     "AiredYear": 2018,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://m.media-amazon.com/images/M/MV5BNDc4NGQwMTAtMmM5My00OWY4LTliMjYtMjNlMjBjZGQ5NGViXkEyXkFqcGc@._V1_.jpg",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
   },
@@ -1005,7 +1005,7 @@
     "AiredYear": 2018,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLE0_gBAtp97_3z_SnnrJ7vMn1zr7aiTBRfBcgw7SM-Q&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "Profanity",
     "ContentLevel": "Mature"
   },
@@ -1015,7 +1015,7 @@
     "AiredYear": 2019,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb27fvfdxd-ESzfHYNPAHqgb-DGwZgBlfkq6BRgF64_w&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -1025,7 +1025,7 @@
     "AiredYear": 2022,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgW4kwbk7hb-ivACcw3sI6EKOGrkt6r9wcjAO_XonB-w&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -1035,7 +1035,7 @@
     "AiredYear": 2024,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1PHgJhmVYPERhZnT65q5shhVOpSVmBwYsC88n2MQCuw&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -1045,7 +1045,7 @@
     "AiredYear": 2025,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEG6CEfsvlkjx8vH_xdD_HHZZRemcj3cQbU0HrIwU3zg&s=10",
-    "Platform": "",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -1215,7 +1215,7 @@
     "AiredYear": 2019,
     "YouTubeLink": "",
 	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdB8kobkiHS5_1eyfyLDY1GF8ksOHcU918rvi7c3Z_1A&s",
-    "Platform": "Netflix",
+    "Platform": "HBO",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
@@ -1784,8 +1784,8 @@
     "Title": "Funny Business",
     "AiredYear": 2016,
     "YouTubeLink": "",
-    "ThumbnailURL": "",
-    "Platform": "",
+    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9wmZbxbj2R6_SoOTqnUYuAiRyL0oSv7_pRWt2J8VqA&s=10",
+    "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
   },
