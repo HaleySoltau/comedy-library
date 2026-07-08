@@ -76,5 +76,10 @@
   { "SpecialID": 481, "Tag": "drybar" },
   { "SpecialID": 482, "Tag": "drybar" },
   { "SpecialID": 483, "Tag": "drybar" },
-  { "SpecialID": 487, "Tag": "drybar" }
+  { "SpecialID": 487, "Tag": "drybar" },
+  { "SpecialID": 5, "Tag": "crowdwork" },
+  { "SpecialID": 9, "Tag": "crowdwork" },
+  { "SpecialID": 187, "Tag": "crowdwork" },
+  { "SpecialID": 263, "Tag": "crowdwork" },
+  { "SpecialID": 264, "Tag": "crowdwork" }
 ]

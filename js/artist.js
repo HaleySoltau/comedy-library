@@ -14,12 +14,13 @@ async function init() {
   }
 
   try {
-    const [artists, tags, specials, lookup, shorts] = await Promise.all([
+    const [artists, tags, specials, lookup, shorts, specialTags] = await Promise.all([
       loadJSON('data/artists.json'),
       loadJSON('data/tags.json'),
       loadJSON('data/specials.json'),
       loadJSON('data/special_lookup.json'),
       loadJSON('data/shorts.json'),
+      loadJSON('data/special_tags.json'),
     ]);
 
     const artist = artists.find(a => String(a.ArtistID) === String(artistId));
@@ -76,6 +77,10 @@ async function init() {
           : hasPlatform
             ? renderPlatformPill(s)
             : '';
+        const rowTags = tagsForSpecial(specialTags, s.SpecialID);
+        const rowTagsBlock = rowTags.length
+          ? `<div class="special-row__tags">${rowTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}</div>`
+          : '';
         return `
           <div class="special-row${stateClass}">
             ${posterBlock}
@@ -84,10 +89,13 @@ async function init() {
                 ${hasVideo ? `<a href="${s.YouTubeLink}" target="_blank" rel="noopener">${s.Title}</a>` : s.Title}
                 ${s.AiredYear ? `<span class="special-row__year"> · Aired ${s.AiredYear}</span>` : ''}
               </p>
+              ${rowTagsBlock}
               <div class="special-row__badges">
-                ${watchBadge}
-                <span class="badge">${s.LanguageLevel || '?'}</span>
-                <span class="badge">${s.ContentLevel || '?'}</span>
+                ${watchBadge ? `<div class="special-row__watch-row">${watchBadge}</div>` : ''}
+                <div class="special-row__level-row">
+                  <span class="badge">${s.LanguageLevel || '?'}</span>
+                  <span class="badge">${s.ContentLevel || '?'}</span>
+                </div>
               </div>
             </div>
           </div>

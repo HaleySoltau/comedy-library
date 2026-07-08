@@ -106,15 +106,10 @@ function withAutoplay(embedLink) {
    aren't on YouTube — colors are per-platform brand accents, with a
    muted-purple fallback matching the site's existing chip style. ---------- */
 
+// All platforms share one purple treatment (same as the former DVD fallback) —
+// per-brand colors were too visually loud (e.g. Netflix red) next to the rest of the UI.
 const PLATFORM_COLORS = {
-  "Netflix":      { bg: "#8C0A11", text: "#FFFFFF" },
-  "HBO Max":      { bg: "#3E2074", text: "#FFFFFF" },
-  "Prime Video":  { bg: "#0D5B7A", text: "#FFFFFF" },
-  "Hulu":         { bg: "#0F5C3E", text: "#FFFFFF" },
-  "Paramount+":   { bg: "#1E3F8C", text: "#FFFFFF" },
-  "Apple TV+":    { bg: "#2A2A2A", text: "#FFFFFF" },
-  "Peacock":      { bg: "#5B3A8C", text: "#FFFFFF" },
-  "default":      { bg: "#372B63", text: "#D9CFFB" },
+  "default": { bg: "#372B63", text: "#D9CFFB" },
 };
 
 // Builds a search-results URL for a special's title on its streaming platform.
@@ -136,7 +131,7 @@ function platformSearchUrl(platform, title) {
 
 // Renders the "Watch on {Platform}" pill for specials without a YouTubeLink.
 function renderPlatformPill(special) {
-  const colors = PLATFORM_COLORS[special.Platform] || PLATFORM_COLORS.default;
+  const colors = PLATFORM_COLORS.default;
   const url = platformSearchUrl(special.Platform, special.Title);
   return `<a class="watch-pill watch-pill--platform" href="${url}" target="_blank" rel="noopener noreferrer" style="background:${colors.bg};color:${colors.text};">Watch on ${special.Platform}</a>`;
 }

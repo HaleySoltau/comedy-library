@@ -725,10 +725,25 @@ img { max-width: 100%; display: block; }
   text-decoration: underline;
 }
 
+.special-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.7rem;
+}
+
 .special-card__badges {
   display: flex;
-  gap: 0.4rem;
+  flex-direction: column;
+  gap: 0.5rem;
   margin-top: auto;
+}
+
+.special-card__watch-row,
+.special-card__level-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .badge {
@@ -910,7 +925,20 @@ img { max-width: 100%; display: block; }
   font-size: 0.85rem;
 }
 
+.special-row__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
 .special-row__badges {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.special-row__watch-row,
+.special-row__level-row {
   display: flex;
   align-items: center;
   gap: 0.4rem;

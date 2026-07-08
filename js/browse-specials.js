@@ -111,6 +111,11 @@ function renderSpecialGrid() {
         ? renderPlatformPill(s)
         : '';
 
+    const specialTags = tagsForSpecial(state.specialTags, s.SpecialID);
+    const tagsBlock = specialTags.length
+      ? `<div class="special-card__tags">${specialTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}</div>`
+      : '';
+
     return `
       <div class="card special-card${stateClass}">
         ${posterBlock}
@@ -118,10 +123,13 @@ function renderSpecialGrid() {
         <div class="special-card__body">
           ${titleBlock}
           <p class="special-card__meta">${artistNames}${s.AiredYear ? ` · ${s.AiredYear}` : ''}</p>
+          ${tagsBlock}
           <div class="special-card__badges">
-            ${watchBadge}
-            <span class="badge">${s.LanguageLevel || '?'}</span>
-            <span class="badge">${s.ContentLevel || '?'}</span>
+            ${watchBadge ? `<div class="special-card__watch-row">${watchBadge}</div>` : ''}
+            <div class="special-card__level-row">
+              <span class="badge">${s.LanguageLevel || '?'}</span>
+              <span class="badge">${s.ContentLevel || '?'}</span>
+            </div>
           </div>
         </div>
       </div>
