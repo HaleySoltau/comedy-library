@@ -88,7 +88,7 @@ function renderSpecialGrid() {
     const artistNames = artists.length
       ? artists.map(a => `<a class="special-card__artist-link" href="artist.html?id=${a.ArtistID}">${a.Name}</a>`).join(', ')
       : 'Unknown artist';
-    const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
+    const poster = s.ThumbnailURL || youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
     const hasVideo = Boolean(s.YouTubeLink);
     const hasPlatform = !hasVideo && Boolean(s.Platform);
     const stateClass = hasVideo ? ' has-video' : hasPlatform ? ' has-platform' : '';

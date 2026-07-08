@@ -67,7 +67,7 @@ async function init() {
         const hasVideo = Boolean(s.YouTubeLink);
         const hasPlatform = !hasVideo && Boolean(s.Platform);
         const stateClass = hasVideo ? ' has-video' : hasPlatform ? ' has-platform' : '';
-        const poster = youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
+        const poster = s.ThumbnailURL || youTubeThumbnail(s.YouTubeLink) || POSTER_FALLBACK;
         const posterImg = `<img src="${poster}" alt="${s.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">`;
         const posterBlock = hasVideo
           ? `<a class="special-row__poster" href="${s.YouTubeLink}" target="_blank" rel="noopener" aria-label="Watch ${s.Title}">${posterImg}<span class="play-badge">${PLAY_ICON}</span></a>`
