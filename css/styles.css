@@ -973,6 +973,7 @@ img { max-width: 100%; display: block; }
   .artist-header { gap: 1.25rem; }
   .artist-header__photo { width: 120px; height: 120px; }
   .controls { flex-direction: column; align-items: stretch; }
+  .search-field { flex: none; width: 100%; min-width: 0; }
   .filter-select { width: 100%; }
   .special-row__poster { width: 76px; height: 43px; }
 }
