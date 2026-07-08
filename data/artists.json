@@ -1128,18 +1128,6 @@
     "TourLink": ""
   },
   {
-    "ArtistID": 97,
-    "Name": "Steve Hofstetter",
-    "Bio": "Stand-up comedian, writer, and podcaster from Queens, New York, who graduated from Columbia University before building an early following through viral crowd-work and heckler-takedown clips on YouTube, now with nearly 300 million views. He's hosted and executive produced Fox's syndicated series Laughs and worked as a comedy correspondent for FOX Sports, and founded the Steel City Arts Foundation in Pittsburgh. A prolific author, his books include Ginger Kid: Mostly True Tales from a Former Nerd and Follow Your Dream (Unless Your Dream Is Stupid), and he's released a long string of comedy albums, including Cure for the Cable Guy (2006) and Ginger Kid (2015).",
-    "PhotoURL": "https://www.wiseguyscomedy.com/_next/image?url=https%3A%2F%2Ffiles.seatengine.com%2Ftalent%2Fheadshots%2Fphotos%2F65964%2Ffull%2Fdata&w=640&q=75",
-    "WebsiteURL": "https://www.stevehofstetter.com/",
-    "YouTubeURL": "https://www.youtube.com/@stevehofstetter",
-    "TwitterURL": "https://twitter.com/stevehofstetter",
-    "InstagramURL": "https://www.instagram.com/stevehofstetter/",
-    "FacebookURL": "https://www.facebook.com/stevehofstetter/",
-    "TourLink": ""
-  },
-  {
     "ArtistID": 98,
     "Name": "Gabriel Rutledge",
     "Bio": "Stand-up comedian born in Bay Center, Washington and raised in South Bend, WA, now based in Olympia, WA. A former decade-long punk rock band member, he left a pizza delivery job in 2000 to pursue comedy full-time, going on to win the Seattle International Comedy Competition (2004) and the Laughing Skull Comedy Festival in Atlanta (2017). Known for observational, family- and marriage-driven humor, he's appeared on Comedy Central's Live at Gotham and Nickelodeon's NickMom Night Out, authored the books Happiness Isn't Funny: True Stories of a Road Comic and There's No F@!*ing Way You're Getting A Pony, and co-hosts the podcast The Rutledges with his wife, Kristi. He's released the specials One Third of the Room (2022, Dry Bar Comedy) and Nectarine (2024).",
@@ -1277,10 +1265,10 @@
     "Bio": "Clean, family-friendly stand-up comedian raised in Beloit, Wisconsin, one of ten children in a large Christian family, now based in Wisconsin. A former insurance salesman, he broke into comedy by winning Showtime's \"Funniest Man in Milwaukee\" contest, launching him into a national touring career and regular spots on Milwaukee's Dave & Carol radio show. Billed as \"mom-approved entertainment,\" he's opened for Jay Leno, Jerry Seinfeld, and Craig Ferguson, and his viral \"Women Know Things\" bit has drawn more than 40 million views. He's released the specials Fred Klett LIVE!, One of Ten (2018, Dry Bar Comedy), and A Family Affair (2025, Angel Studios).",
     "PhotoURL": "https://wklh.com/wp-content/blogs.dir/14/files/2022/12/Fred-Klett-15-2.jpg",
     "WebsiteURL": "https://fredklett.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
+    "YouTubeURL": "https://www.youtube.com/@fredklett",
+    "TwitterURL": "https://x.com/fredklett",
     "InstagramURL": "",
-    "FacebookURL": "",
+    "FacebookURL": "https://www.facebook.com/fredklett.comedian",
     "TourLink": ""
   },
   {
@@ -1289,10 +1277,10 @@
     "Bio": "Stand-up comedian, author, and speaker born and raised in Dublin, Ireland, long associated with the San Francisco comedy scene. He overcame a fear of public speaking by inventing a fictional stage persona, \"Irish Dave, an accomplished comedian,\" spending a year crashing open mics and clubs to learn stand-up techniques he later repurposed for business audiences, and went on to win the San Francisco International Comedy Competition. He's the bestselling author of Do You Talk Funny? 7 Comedy Habits to Become a Better (and Funnier) Public Speaker (2016) and founded the FunnyBizz Conference on storytelling and humor for business. He's released the Dry Bar Comedy special Documented (2019), and has since toured Cultural Appreciation (2023) and Shelf Help (2025).",
     "PhotoURL": "https://davidnihill.com/wp-content/uploads/2022/09/img-davidNihill_bio.jpg",
     "WebsiteURL": "https://davidnihill.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/channel/UC6B561H2ARRDvsliZyyYApA",
+    "TwitterURL": "https://twitter.com/davidnihill",
+    "InstagramURL": "https://www.instagram.com/davidnihill/",
+    "FacebookURL": "https://www.facebook.com/davidnihillcomedy/",
     "TourLink": ""
   },
   {
@@ -1301,10 +1289,10 @@
     "Bio": "Stand-up comedian born in Brooklyn, New York, now based in Los Angeles, who got his start emceeing in college and performing at Harlem's Uptown Comedy Club before relocating to Boston, where he was scouted and made his TV debut on Late Night with Conan O'Brien in 1999. Known for clean, matter-of-fact observational comedy, he was named one of Rolling Stone's \"Five Comics to Watch\" in 2012 and served as a regular correspondent on The Jay Leno Show. He's released the Netflix debut special Take Note (2016) and the Dry Bar Comedy special Please Believe It (2017).",
     "PhotoURL": "https://m.media-amazon.com/images/I/41kyDft49pL._SY402_CR101%2C0%2C402%2C402_.jpg",
     "WebsiteURL": "https://dwayneperkins.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/@dwayneperkins",
+    "TwitterURL": "https://twitter.com/funnydp",
+    "InstagramURL": "https://www.instagram.com/dwayneperkins/",
+    "FacebookURL": "https://www.facebook.com/dwayneperkins",
     "TourLink": ""
   },
   {
@@ -1313,10 +1301,10 @@
     "Bio": "Stand-up comedian born and raised in San Antonio, Texas, where he still bases his career, and grandson of Cleto Rodriguez, one of the first Hispanic recipients of the Congressional Medal of Honor. He began performing comedy in 1995 while also working as a morning TV personality on San Antonio's News 4 WOAI, and has since opened for George Lopez, Gabriel Iglesias, and Daniel Tosh. Known for high-energy, clean, observational comedy with a Latino twist on marriage, parenting, and everyday life, he's also active in charitable work supporting wounded veterans and disadvantaged youth. He's released a string of specials including My Name Is Cleto (2019, Dry Bar Comedy) and Cleto Is My Real Name (2021, Comedy Dynamics).",
     "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF-7cah385NwrP7NFXK28XM8JwoZHcjcOK03FO1zJNmxzKRWDh1Ot0gvg&s=10",
     "WebsiteURL": "https://cletorodriguez.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/user/cletorodriguezcomedy",
+    "TwitterURL": "https://x.com/CletoRodriguez",
+    "InstagramURL": "https://www.instagram.com/cleto_rodriguez_comedy/",
+    "FacebookURL": "https://www.facebook.com/cletorodriguezpage",
     "TourLink": ""
   },
   {
@@ -1325,10 +1313,10 @@
     "Bio": "Stand-up comedian born and raised in France, now based in Los Angeles, who trained as a classical violinist from age 5 at the French National Conservatory and spent over a decade touring the world as a concert violinist before transitioning into comedy. Billing himself as \"the only violinist standup comedian in the world,\" he blends stand-up with live violin, guitar, and breakdancing, and has competed on NBC's Bring the Funny (2019) and appeared at Just For Laughs (2020). He's released the Dry Bar Comedy specials The Maestro of Comedy (2021) and Politically Confused (2024).",
     "PhotoURL": "https://assets.tina.io/99d4063e-b569-443f-b275-a2c558db64f2/Website-Images/ArmandoWebsiteImage2.webp",
     "WebsiteURL": "https://www.armandoanto.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/channel/UCDp_St67PaOLDTod44Q62xQ",
+    "TwitterURL": "https://x.com/armandoviolon",
+    "InstagramURL": "https://www.instagram.com/armandoviolincomedy/",
+    "FacebookURL": "https://www.facebook.com/armandovioloncomedy/",
     "TourLink": ""
   },
   {
@@ -1337,10 +1325,10 @@
     "Bio": "Stand-up comedian from Twin Falls, Idaho, now based in Las Vegas, Nevada, who started comedy about a decade ago at a campus open mic while studying nursing at the College of Southern Idaho. Known for high-energy, family-friendly comedy, he performs regularly on the Las Vegas Strip at venues including Planet Hollywood and the MGM Grand, and his Dry Bar Comedy specials have drawn more than 60 million combined views. He's authored the humor books Father's Easy Answers to Life's Difficult Questions and Mother's Easy Answers to Life's Difficult Questions, and released the specials Raising Insanity (2017), Las Vegas Will Really Mess You Up (2020), and The Pandemic Special (2021).",
     "PhotoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94srYWm2BqCYAi8WaGbWh576zGB_WeFDTMAxOLA8Q5Sz-18iJfSls6gjV&s=10",
     "WebsiteURL": "https://heathharmison.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/c/HeathHarmison",
+    "TwitterURL": "https://twitter.com/HeathHarmison",
+    "InstagramURL": "https://www.instagram.com/heathharmison/",
+    "FacebookURL": "https://www.facebook.com/funnyheath/",
     "TourLink": ""
   },
   {
@@ -1349,10 +1337,10 @@
     "Bio": "Stand-up comedian who grew up in Seattle, Washington and now bases his career in the Salt Lake City, Utah area. He holds a degree in molecular biology and describes himself as \"a scientist and a stand-up comedian,\" building a following through Dry Bar Comedy's touring circuit across 70-plus cities before doing USO tours overseas, and won a Funny or Die competition that landed him a spot on the Oddball Comedy Festival. Known for story-based, observational comedy about everyday inconveniences and awkward personal moments, he released the Dry Bar Comedy special We Say Bim (2017).",
     "PhotoURL": "https://yt3.googleusercontent.com/ytc/AIdro_mrnoGJpUUK7e3zGaYOrPL7xfuK0xncwkjUHzsxYvNNckAF=s900-c-k-c0x00ffffff-no-rj",
     "WebsiteURL": "https://stevesoelberg.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/@stevesoelberg",
+    "TwitterURL": "https://x.com/stevesoelberg",
+    "InstagramURL": "https://www.instagram.com/stevesoelberg/",
+    "FacebookURL": "https://www.facebook.com/SteveSoelbergComedy/",
     "TourLink": ""
   },
   {
@@ -1362,9 +1350,9 @@
     "PhotoURL": "https://www.quezadas.com/wp-content/uploads/2025/08/Gaxiola.jpg",
     "WebsiteURL": "https://www.comediandennis.net/",
     "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "TwitterURL": "https://twitter.com/Comediandennis",
+    "InstagramURL": "https://www.instagram.com/comediandennis/",
+    "FacebookURL": "https://www.facebook.com/comediandennisg",
     "TourLink": ""
   },
   {
@@ -1373,10 +1361,10 @@
     "Bio": "Clean, family-friendly stand-up comedian based in Houston, Texas, known for a rapid-fire delivery, distinctive high-pitched voice, and self-effacing storytelling about childhood, marriage, and fatherhood. He got his start winning a $500 college stand-up competition before touring as a merchandise manager and MC for Christian rock bands including Newsboys and Third Day, going on to build a two-decade-plus career on the Christian comedy circuit alongside acts like Tim Hawkins and John Crist. Beyond stand-up, he created The Adventures of Average Boy, a recurring feature in Focus on the Family's Clubhouse magazine that's spawned a book series and podcast, and voiced Lowell the Snowman in the 2024 animated film Steal the Naughty List. He's released six comedy specials, including Breaking Bob (2017) and the Dry Bar Comedy specials Tartar Terrorist (2019), Longest Running Dad Joke (2020), and Don't Worry, You're Just Hungry (2021).",
     "PhotoURL": "https://www.focusonthefamily.com/wp-content/uploads/2019/06/64977D5A04C941F48A23318612AC2BE1.jpeg",
     "WebsiteURL": "https://www.bobsmiley.com/",
-    "YouTubeURL": "",
-    "TwitterURL": "",
-    "InstagramURL": "",
-    "FacebookURL": "",
+    "YouTubeURL": "https://www.youtube.com/channel/UClMtVwx6UiGtdExMV_gexRA",
+    "TwitterURL": "https://x.com/bobsmileycomedy",
+    "InstagramURL": "https://www.instagram.com/bobsmileycomedy/",
+    "FacebookURL": "https://www.facebook.com/bobsmileycomedy",
     "TourLink": ""
   }
 ]
