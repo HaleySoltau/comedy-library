@@ -190,6 +190,7 @@
   { "ArtistID": 38, "SpecialID": 194 },
   { "ArtistID": 38, "SpecialID": 195 },
   { "ArtistID": 38, "SpecialID": 196 },
+  { "ArtistID": 38, "SpecialID": 350 },
   { "ArtistID": 39, "SpecialID": 197 },
   { "ArtistID": 39, "SpecialID": 198 },
   { "ArtistID": 39, "SpecialID": 199 },
@@ -291,7 +292,6 @@
   { "ArtistID": 59, "SpecialID": 295 },
   { "ArtistID": 60, "SpecialID": 296 },
   { "ArtistID": 60, "SpecialID": 297 },
-  { "ArtistID": 61, "SpecialID": 298 },
   { "ArtistID": 61, "SpecialID": 299 },
   { "ArtistID": 61, "SpecialID": 300 },
   { "ArtistID": 61, "SpecialID": 301 },
@@ -473,8 +473,10 @@
   { "ArtistID": 117, "SpecialID": 485 },
   { "ArtistID": 117, "SpecialID": 486 },
   { "ArtistID": 117, "SpecialID": 487 },
+  { "ArtistID": 117, "SpecialID": 350 },
   { "ArtistID": 33, "SpecialID": 490 },
   { "ArtistID": 1, "SpecialID": 491 },
   { "ArtistID": 99, "SpecialID": 492 },
-  { "ArtistID": 99, "SpecialID": 493 }
+  { "ArtistID": 99, "SpecialID": 493 },
+  { "ArtistID": 71, "SpecialID": 494 }
 ]
