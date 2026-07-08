@@ -94,7 +94,7 @@
     "Title": "Upgraded",
     "AiredYear": 2025,
     "YouTubeLink": "https://www.youtube.com/watch?v=Yu0VMEjy5lo",
-	"ThumbnailURL": "",
+	"ThumbnailURL": "https://images.angelstudios.com/image/upload/q_auto,w_1200,h_630,f_webp,c_scale/v1755211991/studio-app/catalog/217dfde7-e2de-4b30-92ee-03fc1fc05eb5",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -514,7 +514,7 @@
     "Title": "Dwayne Explains",
     "AiredYear": 2021,
     "YouTubeLink": "https://www.youtube.com/watch?v=TUXyJFeZW6U",
-	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCcxZCFqj-OpuxXSd8WGm-DO3uJhgGQ7SG0KPTKbL3cQ&s=10",
+	"ThumbnailURL": "https://vhx.imgix.net/drybarcomedy/assets/44606b78-b47c-420c-9b4e-cac45c4e1b2a-000ce26d.jpeg",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -1274,10 +1274,10 @@
     "Title": "Henry Cho: What's That Clickin' Noise?",
     "AiredYear": 2006,
     "YouTubeLink": "https://www.youtube.com/watch?v=U7_3xxQXgFs",
-	"ThumbnailURL": "",
+	"ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zUSEwS1VHZ_Igaqaj2OkqRbsYYeV_NoxF0pOriqYLg&s=10",
     "Platform": "",
-    "LanguageLevel": "",
-    "ContentLevel": ""
+    "LanguageLevel": "Clean",
+    "ContentLevel": "FamilyFriendly"
   },
   {
     "SpecialID": 132,
@@ -4134,7 +4134,7 @@
     "Title": "Middle Parent Syndrome",
     "AiredYear": 2024,
     "YouTubeLink": "",
-    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1rRrwjRBfgssciPAGMq_8Xh-QfpNafrC9voMvoH_&s=10",
+    "ThumbnailURL": "https://vhx.imgix.net/drybarcomedy/assets/bdd17dc1-197f-4f75-9022-b5cf02938ae6.jpg",
     "Platform": "Drybar Comedy",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"

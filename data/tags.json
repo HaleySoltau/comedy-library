@@ -45,5 +45,6 @@
   { "ArtistID": 113, "Tag": "music" },
   { "ArtistID": 113, "Tag": "prop" },
   { "ArtistID": 116, "Tag": "latin" },
-  { "ArtistID": 117, "Tag": "christian" }
+  { "ArtistID": 117, "Tag": "christian" },
+  { "ArtistID": 26, "Tag": "teacher" }
 ]
