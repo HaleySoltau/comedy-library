@@ -2594,7 +2594,7 @@
     "Title": "More Than Funny",
     "AiredYear": 2018,
     "YouTubeLink": "https://www.youtube.com/watch?v=f81swJDPgus",
-    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_t0_E4XGkWLjkA18XmMSGrMFEprCqWRKrcVT3IIIEmA&s=10",
+    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GqJEETbulTQG5v6awFEzKQp0-XPU5B0Pbf3vww-Rjw&s=10",
     "Platform": "",
     "LanguageLevel": "Clean",
     "ContentLevel": "FamilyFriendly"
@@ -2664,7 +2664,7 @@
     "Title": "Sleepwalk with Me",
     "AiredYear": 2012,
     "YouTubeLink": "",
-    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKkm_dXfo8eu6TZe3uhu0Kzmq3p2hdPkFg_mBXqtLUMw&s=10",
+    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgHR1c4Iv679FU1JDvcPrj25whkQAVJxpjCtu0tdLOxg&s=10",
     "Platform": "Plex",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -3134,7 +3134,7 @@
     "Title": "Red, White and Brown",
     "AiredYear": 2008,
     "YouTubeLink": "",
-    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGd9ebLWl5Zf-BGZlj-Qz7CceIhUcM7b1DemHum9lh&s",
+    "ThumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2NRf-OSVvjH08pqqPJN-JYVAk-YgaQZYtsULJLjQVg&s=10",
     "Platform": "Netflix",
     "LanguageLevel": "",
     "ContentLevel": ""
@@ -4632,16 +4632,6 @@
   },
   {
     "SpecialID": 493,
-    "Title": "Fist Bump",
-    "AiredYear": 2026,
-    "YouTubeLink": "",
-    "ThumbnailURL": "",
-    "Platform": "AppleTV",
-    "LanguageLevel": "Clean",
-    "ContentLevel": "FamilyFriendly"
-  },
-  {
-    "SpecialID": 494,
     "Title": "Fist Bump",
     "AiredYear": 2026,
     "YouTubeLink": "",
