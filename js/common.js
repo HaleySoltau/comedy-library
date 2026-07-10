@@ -102,6 +102,12 @@ function withAutoplay(embedLink) {
   return `${embedLink}${sep}autoplay=1`;
 }
 
+// Instagram Reels embed in portrait (9:16), unlike YouTube's landscape 16:9 —
+// callers use this to swap in the --vertical CSS variant for the right aspect ratio.
+function isVerticalEmbed(embedLink) {
+  return embedLink.includes('instagram.com');
+}
+
 /* ---------- Streaming platform ("Watch on X") pills for specials that
    aren't on YouTube — colors are per-platform brand accents, with a
    muted-purple fallback matching the site's existing chip style. ---------- */

@@ -6,7 +6,7 @@
 
 let state = {
   artists: [],
-  shorts: [],   // [{ArtistID, Title, EmbedLink}]
+  shorts: [],   // [{ArtistID, Title, EmbedLink, ThumbnailURL}]
 };
 
 /* ---------- Featured shorts (deterministic lineup rotation) ---------- */
@@ -91,10 +91,11 @@ function renderFeaturedShorts() {
     const moreLink = artist
       ? `<a class="short-card__more" href="artist.html?id=${artist.ArtistID}">More from ${artist.Name} →</a>`
       : '';
-    const poster = youTubeThumbnail(short.EmbedLink) || POSTER_FALLBACK;
+    const poster = short.ThumbnailURL || youTubeThumbnail(short.EmbedLink) || POSTER_FALLBACK;
+    const embedClass = isVerticalEmbed(short.EmbedLink) ? 'short-card__embed short-card__embed--vertical' : 'short-card__embed';
     return `
       <div class="card">
-        <button class="short-card__embed" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Play ${short.Title}">
+        <button class="${embedClass}" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Play ${short.Title}">
           <img src="${poster}" alt="${short.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
           <span class="play-badge">${PLAY_ICON}</span>
         </button>
@@ -116,8 +117,9 @@ function renderFeaturedShorts() {
 function openVideoLightbox(embedLink, title) {
   const lightbox = document.createElement('div');
   lightbox.className = 'video-lightbox';
+  const innerClass = isVerticalEmbed(embedLink) ? 'video-lightbox__inner video-lightbox__inner--vertical' : 'video-lightbox__inner';
   lightbox.innerHTML = `
-    <div class="video-lightbox__inner">
+    <div class="${innerClass}">
       <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
       <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </div>

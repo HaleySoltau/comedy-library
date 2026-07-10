@@ -109,16 +109,19 @@ async function init() {
     const shortsGrid = document.getElementById('artist-shorts');
     if (artistShorts.length > 0) {
       shortsSection.style.display = '';
-      shortsGrid.innerHTML = artistShorts.map(s => `
+      shortsGrid.innerHTML = artistShorts.map(s => {
+        const embedClass = isVerticalEmbed(s.EmbedLink) ? 'short-card__embed short-card__embed--vertical' : 'short-card__embed';
+        return `
         <div class="card">
-          <div class="short-card__embed">
+          <div class="${embedClass}">
             <iframe src="${s.EmbedLink}" title="${s.Title}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <div class="short-card__body">
             <p class="short-card__title">"${s.Title}"</p>
           </div>
         </div>
-      `).join('');
+      `;
+      }).join('');
     }
 
   } catch (err) {
