@@ -47,10 +47,11 @@ function specialHasArtistTag(specialId, tag, specialLookup, tags) {
     .some(aid => tagsForArtist(tags, aid).includes(tag));
 }
 
-// Extracts an 11-char YouTube video ID from any common URL shape.
+// Extracts an 11-char YouTube video ID from any common URL shape
+// (watch?v=, youtu.be/, shorts/, or an already-embeddable embed/ URL).
 function youTubeVideoId(url) {
   if (!url) return null;
-  const match = url.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+  const match = url.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
   return match ? match[1] : null;
 }
 
@@ -108,6 +109,16 @@ function isVerticalEmbed(embedLink) {
   return embedLink.includes('instagram.com');
 }
 
+// YouTube's watch? and shorts/ pages refuse to be framed (X-Frame-Options) —
+// only the dedicated /embed/ path can actually load in an iframe. Rewrites any
+// YouTube URL shape into that embeddable form; non-YouTube links pass through untouched.
+function toEmbeddableUrl(embedLink) {
+  const id = youTubeVideoId(embedLink);
+  if (!id) return embedLink;
+  const startMatch = embedLink.match(/[?&](?:start|t)=(\d+)/);
+  return `https://www.youtube.com/embed/${id}${startMatch ? `?start=${startMatch[1]}` : ''}`;
+}
+
 /* ---------- Video lightbox — expands a clip to window width, correct aspect ratio ---------- */
 
 function openVideoLightbox(embedLink, title) {
@@ -117,7 +128,7 @@ function openVideoLightbox(embedLink, title) {
   lightbox.innerHTML = `
     <div class="${innerClass}">
       <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
-      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      <iframe src="${withAutoplay(toEmbeddableUrl(embedLink))}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </div>
   `;
 
