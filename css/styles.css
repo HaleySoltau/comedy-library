@@ -408,14 +408,10 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
 }
 
-.short-card__embed--vertical { aspect-ratio: 9 / 16; }
-
-.short-card__embed img,
-.short-card__embed iframe {
+.short-card__embed img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 0;
   display: block;
 }
 

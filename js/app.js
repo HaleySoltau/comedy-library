@@ -91,51 +91,10 @@ function renderFeaturedShorts() {
     const moreLink = artist
       ? `<a class="short-card__more" href="artist.html?id=${artist.ArtistID}">More from ${artist.Name} →</a>`
       : '';
-    const poster = short.ThumbnailURL || youTubeThumbnail(short.EmbedLink) || POSTER_FALLBACK;
-    const embedClass = isVerticalEmbed(short.EmbedLink) ? 'short-card__embed short-card__embed--vertical' : 'short-card__embed';
-    return `
-      <div class="card">
-        <button class="${embedClass}" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Play ${short.Title}">
-          <img src="${poster}" alt="${short.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
-          <span class="play-badge">${PLAY_ICON}</span>
-        </button>
-        <div class="short-card__body">
-          <p class="short-card__title">"${short.Title}"</p>
-          ${moreLink}
-        </div>
-      </div>
-    `;
+    return renderShortCard(short, moreLink);
   }).join('');
 
-  strip.querySelectorAll('.short-card__embed').forEach(btn => {
-    btn.addEventListener('click', () => openVideoLightbox(btn.dataset.embed, btn.dataset.title));
-  });
-}
-
-/* ---------- Video lightbox — expands a clip to window width, same aspect ratio ---------- */
-
-function openVideoLightbox(embedLink, title) {
-  const lightbox = document.createElement('div');
-  lightbox.className = 'video-lightbox';
-  const innerClass = isVerticalEmbed(embedLink) ? 'video-lightbox__inner video-lightbox__inner--vertical' : 'video-lightbox__inner';
-  lightbox.innerHTML = `
-    <div class="${innerClass}">
-      <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
-      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-    </div>
-  `;
-
-  const close = () => {
-    lightbox.remove();
-    document.removeEventListener('keydown', onKeydown);
-  };
-  const onKeydown = (e) => { if (e.key === 'Escape') close(); };
-
-  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) close(); });
-  lightbox.querySelector('.video-lightbox__close').addEventListener('click', close);
-  document.addEventListener('keydown', onKeydown);
-
-  document.body.appendChild(lightbox);
+  bindShortCardEmbeds(strip);
 }
 
 /* ---------- Init ---------- */

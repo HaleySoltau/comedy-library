@@ -108,6 +108,58 @@ function isVerticalEmbed(embedLink) {
   return embedLink.includes('instagram.com');
 }
 
+/* ---------- Video lightbox — expands a clip to window width, correct aspect ratio ---------- */
+
+function openVideoLightbox(embedLink, title) {
+  const lightbox = document.createElement('div');
+  lightbox.className = 'video-lightbox';
+  const innerClass = isVerticalEmbed(embedLink) ? 'video-lightbox__inner video-lightbox__inner--vertical' : 'video-lightbox__inner';
+  lightbox.innerHTML = `
+    <div class="${innerClass}">
+      <button class="video-lightbox__close" type="button" aria-label="Close">${CLOSE_ICON}</button>
+      <iframe src="${withAutoplay(embedLink)}" title="${title}" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    </div>
+  `;
+
+  const close = () => {
+    lightbox.remove();
+    document.removeEventListener('keydown', onKeydown);
+  };
+  const onKeydown = (e) => { if (e.key === 'Escape') close(); };
+
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) close(); });
+  lightbox.querySelector('.video-lightbox__close').addEventListener('click', close);
+  document.addEventListener('keydown', onKeydown);
+
+  document.body.appendChild(lightbox);
+}
+
+// Renders a short clip as a small poster thumbnail with a play button that
+// opens the video-lightbox — shared markup for the homepage lineup strip
+// and the artist page's clips section, so shorts behave identically everywhere.
+function renderShortCard(short, extraBodyHtml = '') {
+  const poster = short.ThumbnailURL || youTubeThumbnail(short.EmbedLink) || POSTER_FALLBACK;
+  return `
+    <div class="card">
+      <button class="short-card__embed" type="button" data-embed="${short.EmbedLink}" data-title="${short.Title}" aria-label="Play ${short.Title}">
+        <img src="${poster}" alt="${short.Title} poster" loading="lazy" onerror="this.onerror=null;this.src='${POSTER_FALLBACK}';">
+        <span class="play-badge">${PLAY_ICON}</span>
+      </button>
+      <div class="short-card__body">
+        <p class="short-card__title">"${short.Title}"</p>
+        ${extraBodyHtml}
+      </div>
+    </div>
+  `;
+}
+
+// Wires up click-to-open-lightbox for every .short-card__embed button inside `container`.
+function bindShortCardEmbeds(container) {
+  container.querySelectorAll('.short-card__embed').forEach(btn => {
+    btn.addEventListener('click', () => openVideoLightbox(btn.dataset.embed, btn.dataset.title));
+  });
+}
+
 /* ---------- Streaming platform ("Watch on X") pills for specials that
    aren't on YouTube — colors are per-platform brand accents, with a
    muted-purple fallback matching the site's existing chip style. ---------- */
