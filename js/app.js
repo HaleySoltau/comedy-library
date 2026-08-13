@@ -6,7 +6,8 @@
 
 let state = {
   artists: [],
-  shorts: [],   // [{ArtistID, Title, EmbedLink, ThumbnailURL}]
+  shorts: [],   // [{ArtistID, SpecialID, Title, EmbedLink, ThumbnailURL}]
+  specials: [],
 };
 
 /* ---------- Featured shorts (deterministic lineup rotation) ---------- */
@@ -91,7 +92,8 @@ function renderFeaturedShorts() {
     const moreLink = artist
       ? `<a class="short-card__more" href="artist.html?id=${artist.ArtistID}">More from ${artist.Name} →</a>`
       : '';
-    return renderShortCard(short, moreLink);
+    const specialLink = renderShortSpecialLink(specialForShort(state.specials, short));
+    return renderShortCard(short, moreLink + specialLink);
   }).join('');
 
   bindShortCardEmbeds(strip);
@@ -101,13 +103,15 @@ function renderFeaturedShorts() {
 
 async function init() {
   try {
-    const [artists, shorts] = await Promise.all([
+    const [artists, shorts, specials] = await Promise.all([
       loadJSON('data/artists.json'),
       loadJSON('data/shorts.json'),
+      loadJSON('data/specials.json'),
     ]);
     state.artists = visibleArtists(artists);
     // Only feature clips from artists who are still visible on the site.
     state.shorts = shorts.filter(s => isArtistVisible(state.artists.find(a => String(a.ArtistID) === String(s.ArtistID))));
+    state.specials = specials;
     renderFeaturedShorts();
   } catch (err) {
     console.error(err);

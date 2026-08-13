@@ -1,12 +1,12 @@
 [
-  { "ArtistID": 33, "Title": "These are just jokes", "EmbedLink": "https://www.instagram.com/reel/DYDGesSiI1P/embed", "ThumbnailURL": "" },
-  { "ArtistID": 38, "Title": "The three little pigs", "EmbedLink": "https://www.youtube.com/embed/OxoUUbMii7Q?start=3", "ThumbnailURL": "" },
-  { "ArtistID": 33, "Title": "Best thing that ever happened to me", "EmbedLink": "https://www.youtube.com/embed/WC20hnlzypc", "ThumbnailURL": "" },
-  { "ArtistID": 47, "Title": "Autocorrect Gone Horribly Wrong", "EmbedLink": "https://www.youtube.com/embed/J5eoSQLIQvI", "ThumbnailURL": "" },
-  { "ArtistID": 15, "Title": "The Festival", "EmbedLink": "https://www.youtube.com/embed/ccVHbN-ndK0", "ThumbnailURL": "" },
-  { "ArtistID": 23, "Title": "New Kids are like New Phones", "EmbedLink": "https://www.youtube.com/embed/CPaKxJAp7Og", "ThumbnailURL": "" },
-  { "ArtistID": 3, "Title": "Daywalker", "EmbedLink": "https://youtube.com/shorts/4CiK1E7O8oc?si=xLC_FubjdJBUQjLo", "ThumbnailURL": "" },
-  { "ArtistID": 71, "Title": "Worship Music", "EmbedLink": "https://www.youtube.com/watch?v=LLJvFzypJ_4", "ThumbnailURL": "" },
-  { "ArtistID": 71, "Title": "Inappropriate Wedding Songs", "EmbedLink": "https://www.youtube.com/watch?v=I8S2u8_vSnc", "ThumbnailURL": "" },
-  { "ArtistID": 71, "Title": "Hand Raising", "EmbedLink": "https://www.youtube.com/watch?v=TK2_ezOBa2A", "ThumbnailURL": "" }
+  { "ArtistID": 33, "SpecialID": "", "Title": "These are just jokes", "EmbedLink": "https://www.instagram.com/reel/DYDGesSiI1P/embed", "ThumbnailURL": "" },
+  { "ArtistID": 38, "SpecialID": "", "Title": "The three little pigs", "EmbedLink": "https://www.youtube.com/embed/OxoUUbMii7Q?start=3", "ThumbnailURL": "" },
+  { "ArtistID": 33, "SpecialID": "", "Title": "Best thing that ever happened to me", "EmbedLink": "https://www.youtube.com/embed/WC20hnlzypc", "ThumbnailURL": "" },
+  { "ArtistID": 47, "SpecialID": "", "Title": "Autocorrect Gone Horribly Wrong", "EmbedLink": "https://www.youtube.com/embed/J5eoSQLIQvI", "ThumbnailURL": "" },
+  { "ArtistID": 15, "SpecialID": "", "Title": "The Festival", "EmbedLink": "https://www.youtube.com/embed/ccVHbN-ndK0", "ThumbnailURL": "" },
+  { "ArtistID": 23, "SpecialID": "", "Title": "New Kids are like New Phones", "EmbedLink": "https://www.youtube.com/embed/CPaKxJAp7Og", "ThumbnailURL": "" },
+  { "ArtistID": 3, "SpecialID": "", "Title": "Daywalker", "EmbedLink": "https://youtube.com/shorts/4CiK1E7O8oc?si=xLC_FubjdJBUQjLo", "ThumbnailURL": "" },
+  { "ArtistID": 71, "SpecialID": "", "Title": "Worship Music", "EmbedLink": "https://www.youtube.com/watch?v=LLJvFzypJ_4", "ThumbnailURL": "" },
+  { "ArtistID": 71, "SpecialID": "", "Title": "Inappropriate Wedding Songs", "EmbedLink": "https://www.youtube.com/watch?v=I8S2u8_vSnc", "ThumbnailURL": "" },
+  { "ArtistID": 71, "SpecialID": "", "Title": "Hand Raising", "EmbedLink": "https://www.youtube.com/watch?v=TK2_ezOBa2A", "ThumbnailURL": "" }
 ]

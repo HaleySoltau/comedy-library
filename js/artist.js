@@ -109,7 +109,10 @@ async function init() {
     const shortsGrid = document.getElementById('artist-shorts');
     if (artistShorts.length > 0) {
       shortsSection.style.display = '';
-      shortsGrid.innerHTML = artistShorts.map(s => renderShortCard(s)).join('');
+      shortsGrid.innerHTML = artistShorts.map(s => {
+        const linkedSpecial = specialForShort(specials, s);
+        return renderShortCard(s, renderShortSpecialLink(linkedSpecial));
+      }).join('');
       bindShortCardEmbeds(shortsGrid);
     }
 

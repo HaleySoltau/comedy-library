@@ -752,6 +752,17 @@ img { max-width: 100%; display: block; }
   gap: 0.4rem;
 }
 
+/* Momentary highlight for a special-card deep-linked from a short clip
+   ("From: <Special> →"), so it's obvious which card the link landed on. */
+.special-card--highlight {
+  animation: special-card-flash 2.2s ease-out 1;
+}
+
+@keyframes special-card-flash {
+  0%   { box-shadow: 0 0 0 3px var(--accent), var(--shadow-card-hover); }
+  100% { box-shadow: var(--shadow-card); }
+}
+
 .badge {
   font-size: 0.68rem;
   font-weight: 600;

@@ -125,7 +125,7 @@ function renderSpecialGrid() {
       : '';
 
     return `
-      <div class="card special-card${stateClass}">
+      <div class="card special-card${stateClass}" id="special-${s.SpecialID}">
         ${posterBlock}
         <div class="card__perf"></div>
         <div class="special-card__body">
@@ -143,6 +143,19 @@ function renderSpecialGrid() {
       </div>
     `;
   }).join('');
+}
+
+// Supports "From: <Special> →" links on short clips (js/common.js
+// renderShortSpecialLink), which land here as browse-specials.html?special=ID.
+// Scrolls the matching card into view and flashes it so it's easy to spot.
+function jumpToLinkedSpecial() {
+  const specialId = new URLSearchParams(window.location.search).get('special');
+  if (!specialId) return;
+  const card = document.getElementById(`special-${specialId}`);
+  if (!card) return;
+  card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  card.classList.add('special-card--highlight');
+  card.addEventListener('animationend', () => card.classList.remove('special-card--highlight'), { once: true });
 }
 
 async function init() {
@@ -165,6 +178,7 @@ async function init() {
 
     renderFilterOptions();
     renderSpecialGrid();
+    jumpToLinkedSpecial();
 
     document.getElementById('special-search').addEventListener('input', (e) => {
       state.search = e.target.value;

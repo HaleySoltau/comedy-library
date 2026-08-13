@@ -179,6 +179,22 @@ function openVideoLightbox(embedLink, title) {
   document.body.appendChild(lightbox);
 }
 
+// Looks up the full special a short clip is pulled from (via short.SpecialID).
+// Returns null if the short isn't linked to one, the special doesn't exist,
+// or that special is currently hidden (Show: 0).
+function specialForShort(specials, short) {
+  if (!short.SpecialID && short.SpecialID !== 0) return null;
+  return specials.find(sp => String(sp.SpecialID) === String(short.SpecialID) && isSpecialVisible(sp)) || null;
+}
+
+// "From: <Special Title> (Year) →" link shown under a short clip that's
+// tagged with a SpecialID — lets someone who liked the clip find the full special.
+function renderShortSpecialLink(special) {
+  if (!special) return '';
+  const year = special.AiredYear ? ` (${special.AiredYear})` : '';
+  return `<a class="short-card__more" href="browse-specials.html?special=${special.SpecialID}">From: ${special.Title}${year} →</a>`;
+}
+
 // Renders a short clip as a small poster thumbnail with a play button that
 // opens the video-lightbox — shared markup for the homepage lineup strip
 // and the artist page's clips section, so shorts behave identically everywhere.
