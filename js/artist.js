@@ -1,5 +1,5 @@
 /* ============================================
-   Comedy Library — artist detail page logic
+   Lauren's Green Room — artist detail page logic
    (loadJSON / helpers come from js/common.js)
    ============================================ */
 
@@ -29,7 +29,7 @@ async function init() {
       return;
     }
 
-    document.title = `${artist.Name} — Comedy Library`;
+    document.title = `${artist.Name} — Lauren's Green Room`;
 
     const artistTags = tagsForArtist(tags, artistId);
     const photo = artist.PhotoURL ? `style="background-image:url('${artist.PhotoURL}')"` : '';

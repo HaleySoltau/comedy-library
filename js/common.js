@@ -1,5 +1,5 @@
 /* ============================================
-   Comedy Library — shared helpers
+   Lauren's Green Room — shared helpers
    Used by every page's script (loaded before it)
    ============================================ */
 

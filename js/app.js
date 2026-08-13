@@ -1,5 +1,5 @@
 /* ============================================
-   Comedy Library — homepage logic
+   Lauren's Green Room — homepage logic
    Renders "Tonight's Lineup" from data/shorts.json
    (loadJSON / helpers come from js/common.js)
    ============================================ */

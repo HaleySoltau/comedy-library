@@ -1,5 +1,5 @@
 /* ============================================
-   Comedy Library — Browse by Special page logic
+   Lauren's Green Room — Browse by Special page logic
    (loadJSON / helpers come from js/common.js)
    ============================================ */
 
