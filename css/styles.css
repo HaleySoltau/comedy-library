@@ -76,6 +76,12 @@ img { max-width: 100%; display: block; }
   gap: 0.5rem;
 }
 
+.site-nav__brand-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  flex-shrink: 0;
+}
+
 .site-nav__links {
   display: flex;
   gap: 0.5rem;
