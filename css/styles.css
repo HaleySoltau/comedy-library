@@ -65,21 +65,15 @@ img { max-width: 100%; display: block; }
 }
 
 .site-nav__brand {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.35rem;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--text-primary);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  text-decoration: none;
 }
 
-.site-nav__brand-icon {
-  width: 1.7rem;
-  height: 1.7rem;
-  flex-shrink: 0;
+.site-nav__brand-logo {
+  height: 2.75rem;
+  width: auto;
+  display: block;
 }
 
 .site-nav__links {
