@@ -21,6 +21,28 @@ function tagsForSpecial(specialTags, specialId) {
   return specialTags.filter(t => String(t.SpecialID) === String(specialId)).map(t => t.Tag);
 }
 
+/* ---------- Show/Hide flags ----------
+   Artists and specials each carry a "Show" field (1 = visible, 0 = hidden).
+   Missing/undefined is treated as visible, so older records without the
+   field yet don't disappear. Toggle to 0 to pull something from the site
+   without deleting its data. ---------- */
+
+function isArtistVisible(artist) {
+  return artist && artist.Show !== 0;
+}
+
+function isSpecialVisible(special) {
+  return special && special.Show !== 0;
+}
+
+function visibleArtists(artists) {
+  return artists.filter(isArtistVisible);
+}
+
+function visibleSpecials(specials) {
+  return specials.filter(isSpecialVisible);
+}
+
 function specialIdsForArtist(specialLookup, artistId) {
   return specialLookup.filter(l => String(l.ArtistID) === String(artistId)).map(l => l.SpecialID);
 }
@@ -33,6 +55,18 @@ function artistsForSpecial(artists, specialLookup, specialId) {
   return artistIdsForSpecial(specialLookup, specialId)
     .map(id => artists.find(a => String(a.ArtistID) === String(id)))
     .filter(Boolean);
+}
+
+// A special is fully visible when it's not hidden itself AND it isn't
+// orphaned by every one of its linked artists being hidden. A special with
+// no linked artists at all (or at least one still-visible artist) passes.
+// This is what lets "hide the whole artist" (Show: 0) hide their specials
+// too, without having to also flip every one of that artist's specials.
+function isSpecialFullyVisible(special, specialLookup, artists) {
+  if (!isSpecialVisible(special)) return false;
+  const artistIds = artistIdsForSpecial(specialLookup, special.SpecialID);
+  if (artistIds.length === 0) return true;
+  return artistIds.some(id => isArtistVisible(artists.find(a => String(a.ArtistID) === String(id))));
 }
 
 // Does this artist have at least one special tagged with `tag`?

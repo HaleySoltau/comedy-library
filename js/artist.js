@@ -24,7 +24,7 @@ async function init() {
     ]);
 
     const artist = artists.find(a => String(a.ArtistID) === String(artistId));
-    if (!artist) {
+    if (!artist || !isArtistVisible(artist)) {
       content.innerHTML = '<div class="empty-state">Comedian not found.</div>';
       return;
     }
@@ -55,7 +55,7 @@ async function init() {
 
     // Specials for this artist (via lookup table, since specials can have multiple comedians)
     const specialIds = specialIdsForArtist(lookup, artistId);
-    const artistSpecials = specials.filter(s => specialIds.includes(s.SpecialID));
+    const artistSpecials = specials.filter(s => specialIds.includes(s.SpecialID) && isSpecialVisible(s));
 
     const specialsSection = document.getElementById('specials-section');
     const specialsList = document.getElementById('specials-list');

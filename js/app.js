@@ -105,8 +105,9 @@ async function init() {
       loadJSON('data/artists.json'),
       loadJSON('data/shorts.json'),
     ]);
-    state.artists = artists;
-    state.shorts = shorts;
+    state.artists = visibleArtists(artists);
+    // Only feature clips from artists who are still visible on the site.
+    state.shorts = shorts.filter(s => isArtistVisible(state.artists.find(a => String(a.ArtistID) === String(s.ArtistID))));
     renderFeaturedShorts();
   } catch (err) {
     console.error(err);

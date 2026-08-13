@@ -154,9 +154,12 @@ async function init() {
       loadJSON('data/special_lookup.json'),
       loadJSON('data/special_tags.json'),
     ]);
-    state.artists = artists;
+    // isSpecialFullyVisible needs the full (unfiltered) artist list to check every
+    // linked artist's Show flag; state.artists itself stays visible-only so a hidden
+    // co-artist on a compilation special never surfaces a name/link in the UI.
+    state.specials = specials.filter(s => isSpecialFullyVisible(s, specialLookup, artists));
+    state.artists = visibleArtists(artists);
     state.tags = tags;
-    state.specials = specials;
     state.specialLookup = specialLookup;
     state.specialTags = specialTags;
 

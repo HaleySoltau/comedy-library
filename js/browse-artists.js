@@ -102,7 +102,7 @@ async function init() {
       loadJSON('data/special_lookup.json'),
       loadJSON('data/special_tags.json'),
     ]);
-    state.artists = artists.sort((a, b) => a.Name.localeCompare(b.Name));
+    state.artists = visibleArtists(artists).sort((a, b) => a.Name.localeCompare(b.Name));
     state.tags = tags;
     state.specialLookup = specialLookup;
     state.specialTags = specialTags;
