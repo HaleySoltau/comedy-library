@@ -86,7 +86,7 @@ function renderArtistGrid() {
         <div class="artist-card__body">
           <p class="artist-card__name">${a.Name}</p>
           <div class="artist-card__tags">
-            ${tags.map(t => `<span class="pill-tag">${t}</span>`).join('')}
+            ${tags.map(renderPillTag).join('')}
           </div>
         </div>
       </a>

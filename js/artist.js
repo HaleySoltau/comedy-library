@@ -39,14 +39,14 @@ async function init() {
     content.innerHTML = `
       <div class="artist-header">
         <div class="artist-header__photo" ${photo}>
-          ${artist.PhotoURL ? '' : `<div style="display:flex;align-items:center;justify-content:center;height:100%;font-family:var(--font-display);font-size:2.75rem;color:var(--primary);">${initials(artist.Name)}</div>`}
+          ${artist.PhotoURL ? '' : `<div style="display:flex;align-items:center;justify-content:center;height:100%;font-family:var(--font-display);font-size:2.75rem;color:var(--color-primary);">${initials(artist.Name)}</div>`}
         </div>
         <div>
           <h1 class="artist-header__name">${artist.Name}</h1>
           ${artist.WebsiteURL ? `<a class="artist-header__website" href="${artist.WebsiteURL}" target="_blank" rel="noopener">${artist.WebsiteURL}</a>` : ''}
           ${renderTicketsLink(artist)}
           <div class="artist-header__tags">
-            ${artistTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}
+            ${artistTags.map(renderPillTag).join('')}
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ async function init() {
             : '';
         const rowTags = tagsForSpecial(specialTags, s.SpecialID);
         const rowTagsBlock = rowTags.length
-          ? `<div class="special-row__tags">${rowTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}</div>`
+          ? `<div class="special-row__tags">${rowTags.map(renderPillTag).join('')}</div>`
           : '';
         return `
           <div class="special-row${stateClass}">

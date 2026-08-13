@@ -121,7 +121,7 @@ function renderSpecialGrid() {
 
     const specialTags = tagsForSpecial(state.specialTags, s.SpecialID);
     const tagsBlock = specialTags.length
-      ? `<div class="special-card__tags">${specialTags.map(t => `<span class="pill-tag">${t}</span>`).join('')}</div>`
+      ? `<div class="special-card__tags">${specialTags.map(renderPillTag).join('')}</div>`
       : '';
 
     return `

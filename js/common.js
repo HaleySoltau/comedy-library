@@ -21,6 +21,22 @@ function tagsForSpecial(specialTags, specialId) {
   return specialTags.filter(t => String(t.SpecialID) === String(specialId)).map(t => t.Tag);
 }
 
+/* ---------- Tag chip color rotation ----------
+   Same tag string always gets the same color everywhere it appears (deterministic
+   hash, not random) — e.g. "Political" is always sage, never a different color
+   on a different page. ---------- */
+const PILL_TAG_VARIANTS = ['pill-tag--sage', 'pill-tag--brown', 'pill-tag--plum'];
+
+function pillTagVariant(tag) {
+  let sum = 0;
+  for (let i = 0; i < tag.length; i++) sum += tag.charCodeAt(i);
+  return PILL_TAG_VARIANTS[sum % PILL_TAG_VARIANTS.length];
+}
+
+function renderPillTag(tag) {
+  return `<span class="pill-tag ${pillTagVariant(tag)}">${tag}</span>`;
+}
+
 /* ---------- Show/Hide flags ----------
    Artists and specials each carry a "Show" field (1 = visible, 0 = hidden).
    Missing/undefined is treated as visible, so older records without the
@@ -95,19 +111,19 @@ function youTubeThumbnail(url) {
 }
 
 // Inline SVG placeholder poster, used when a special has no parseable YouTube link
-// (or its thumbnail fails to load) — matches the new indigo/purple/teal palette.
+// (or its thumbnail fails to load) — matches the Lauren's Green Room sage/leather palette.
 const POSTER_FALLBACK = 'data:image/svg+xml;utf8,' + encodeURIComponent(`
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#241A47"/>
-      <stop offset="1" stop-color="#150E2E"/>
+      <stop offset="0" stop-color="#E3E9DF"/>
+      <stop offset="1" stop-color="#F7F7F5"/>
     </linearGradient>
   </defs>
   <rect width="320" height="180" fill="url(#g)"/>
-  <circle cx="160" cy="78" r="26" fill="none" stroke="#8B5CF6" stroke-width="2.5"/>
-  <polygon points="152,64 152,92 178,78" fill="#2DD4BF"/>
-  <text x="160" y="132" text-anchor="middle" font-family="Calibri, Inter, sans-serif" font-size="12" fill="#A79FC4">no poster available</text>
+  <circle cx="160" cy="78" r="26" fill="none" stroke="#33492A" stroke-width="2.5"/>
+  <polygon points="152,64 152,92 178,78" fill="#8AAA79"/>
+  <text x="160" y="132" text-anchor="middle" font-family="Calibri, Inter, sans-serif" font-size="12" fill="#5A555C">no poster available</text>
 </svg>
 `);
 
