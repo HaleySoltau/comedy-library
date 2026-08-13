@@ -86,8 +86,8 @@ This file isn't read by the site — it's just a running checklist for us.
 
 ## Batch 18 (SpecialIDs 402–431)
 
-- [ ] **The Times They Are a John Hastings** (John Hastings) — SpecialID 421 — https://www.youtube.com/watch?v=njvcS7PNxNc
-  Strong contextual evidence this is his own self-released channel (he regularly posts full specials there), but the page couldn't be directly rendered to confirm the uploader field.
+- [x] **The Times They Are a John Hastings** (John Hastings) — SpecialID 421 — https://www.youtube.com/watch?v=njvcS7PNxNc
+  ✅ Verified by Haley (2026-08-13) — confirmed this is a genuine, separate special from his other releases (not a mismatch/duplicate of COMEDIAN JOHN or Everything Goes Wrong).
 
 ## Batch 19 — final sweep (SpecialIDs 432–493)
 
